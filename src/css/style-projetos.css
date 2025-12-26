@@ -6,7 +6,9 @@
   font: var(--texto);
   margin-top: 30px;
 }
-
+.projetos .interface-flex {
+  gap: 20px;
+}
 .card-projetos {
   background-color: var(--background-color);
   border: 0.3px solid var(--color-destaque);
@@ -15,7 +17,8 @@
   padding: 20px;
   margin: 10px;
   text-align: center;
-  width: 250px;
+  max-width: 400px;
+  height: 230px;
   transition: transform 0.3s, box-shadow 0.3s;
   cursor: pointer;
 }
@@ -26,11 +29,12 @@
 }
 
 .projetos h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--color-destaque);
   margin: 15px 0;
 }
 
 .projetos p {
   text-align: center;
+  font-size: .8rem;
 }

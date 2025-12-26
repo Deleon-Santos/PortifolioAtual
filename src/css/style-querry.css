@@ -1,322 +1,71 @@
-@media screen and (max-width: 968px) {
-    header {
-        padding: 20px 0%;
+@media screen and (max-width: 970px) {
+    i {
+        font-size: 2.5rem;
     }
 
-    .menu_desktop li a {
-        margin: 0 10px;
-        padding:0px 5px;
-        font-size: 1.1rem;
+    h1 {
+        font-size:2.5rem;
     }
 
-    .logo p {
-        font-size: 1.8rem;
+    h2 {
+
+        font-size: 1.5rem;
+    }
+    
+    .home{
+        max-width: 560px;
+        padding: 2rem 1rem;
     }
 
-    .btn_contatos button {
-        font-size: 1rem;
-        padding: 7PX 20PX;
+    .home p{
+        font-size: 1.5rem;
     }
-
-    .corpo {
-        padding: 80px 4%
-    }
-
-    .img_sobre {
-        max-width: 600px;
-        min-width: 100px;
-    }
-
-    .img_sobre img {
-        min-width: 300px;
-    }
-
-    .interface .flexivel {
-        gap: 50px;
-    }
-
-    .corpo .flexivel {
-        gap: 20px;
-    }
-
-    .label h1 {
-        font-size: 2rem;
-    }
-
-    .label p {
+    .home span{
         font-size: 1.5rem;
     }
 
-    .sobre .flexivel {
-        flex-direction: column;
-    }
-
-    .projetos {
-        max-width: 350px;
-        height: 250px;
-        padding: 20px;
-        margin-top: 20px;
-    }
-
-    .projetos i {
-        font-size: 4rem;
-    }
-
-    .projetos h3 {
-        font-size: 1.3rem;
-        color: antiquewhite;
-        margin: 15px 0;
-    }
-
-    .projetos p {
-        text-align: center;
-    }
-    
-    .img_port{
-        /* max-width: 360px; */
-        width: 280px;
-    }
-    
-    .skills {
-        padding: 0px 4%;
-    }
-
-    .skills .flexivel {
-        padding: 10px 0%;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 50px;
-    }
-
-    .skills h3 {
-        font-size: 1rem;
-    }
-
-    .skills .projetos {
-        min-width: 60px;
-        max-width: 150px;
-        max-height: 150px;
-        padding: 10px;
-    }
-
-    .footer p {
-        margin-bottom: 20px;
-    }
-}
-
-@media screen and (max-width: 760px) {
-
-
-    .menu_mobile {
-    display: none;
-    position: fixed;
-    top: 40px;
-    right: 0;
-    width: 250px; /* ajuste conforme necessário */
-    height: 100%;
-    background-color: #000; /* cor de fundo opcional */
-    transform: translateX(100%);
-    transition:all transform 0.5s ease-in-out, opacity 1s ease-in-out;
-    opacity: 0;
-    z-index: 10;
-    }
-
-    .menu_mobile.active {
-        display: block;
-        transform: translateX(0);
-        opacity: 1;
-    }
-
-    .menu_mobile a:hover {
-        transition: all .5s ease-in-out ease-in;
-
-        transform: scale(1.01);
-        color: black;
-    }
-
-    .logo_burguer p {
-        font-size: 2.4rem;
-    }
-
-    .logo_burguer {
-        display: block;
-    }
-
-    .logo {
-        display: none;
-    }
-
-    /* Botão do menu hamburguer */
-    .menu_hamburger_btn {
-        width: 30px;
-        height: 22px;
-        cursor: pointer;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        /* border: 2px solid aqua; */
-        padding: 4px;
-    }
-
-    .menu_hamburger_btn {
-        z-index: 15;
-        position: relative;
-    }
-
-    .menu_hamburger_btn:hover {
-        transition: all 0.3s ease;
-        transform: scale(1.05);
-        font-weight: 900;
-        /* box-shadow: 0 0 10px 5px rgba(0, 255, 255, 0.367); */
-    }
-
-    /* Linhas do botão hamburguer */
-    .menu_hamburger_btn div {
-        width: 100%;
-        height: 2px;
-        background-color: aqua;
-        transition: all 0.3s ease;
-    }
-
-
-    .menu_hamburger_btn.active .line-1 {
-        transform: rotate(45deg) translate(7px, 7px);
-    }
-
-    .menu_hamburger_btn.active .line-2 {
-        opacity: 0;
-    }
-
-    .menu_hamburger_btn.active .line-3 {
-        transform: rotate(-45deg) translate(7px, -7px);
-    }
-
-    .menu_mobile ul {
-        display: block;    
-    }
-
-    .menu_mobile ul a {
-        text-decoration: none;
-        padding: 15px 10%;
-        font-size: 1.5rem;
-        cursor: pointer;
-        display: block;
-    }
-
-    .menu_mobile ul li a:hover {
-        /* ckground-color: transparent;ba */
-        color: var(--color-strong);
+    .projetos .interface-flex,
+    .sobre .interface-flex{
         
-        transform: scale(1.05);
-        transition: all .5s ease-in-out ease-in;
-    }
-
-    header .interface {
-        padding: 1px 10%;
-        justify-content: space-between;
-        display: flex;
-        margin-top: -15px;
-        padding-top: -20px;
-    }
-
-    .menu_desktop {
-        display: none;
-    }
-
-    .btn_contatos button {
-        display: none;
-    }
-
-    .interface {
-        padding: 20px 8%;
-        margin-top: 0px;
-    }
-
-    .flexivel {
         flex-direction: column;
-    }
-
-    .interface .titulo {
-        text-align: center;
-    }
-
-    .corpo .interface {
-        padding: 20px 8%;
-    }
-
-    .corpo h1 {
-        text-align: center;
-    }
-
-    .corpo p {
-        font-size: 1.3rem;
-        text-align: center;
-    }
-
-    .redes__sociais span {
-        margin-bottom: 40px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .img_sobre img {
-        max-width: 600px;
-    }
-
-    .projetos {
-        max-width: 600px;
-        height: 250px;
-        padding: 30px 10px;
-        margin-top: 20px;
-    }
-
-    .portfolio {
-        max-width: 600px;
-        min-width: 310px;
-    }
-
-    .skills .projetos {
-
-        max-width: 250px;
-        height: 250px;
-        padding: 30px 10px;
-        margin-top: 20px;
-    }
-
-    .projetos i {
-        font-size: 5rem;
-    }
-
-    .projetos h3 {
-        font-size: 1.3rem;
-        color: antiquewhite;
-        margin: 15px 0;
-    }
-
-    .projetos p {
-        text-align: center;
-    }
-    
-
-    .skills .flexivel {
-        padding: 10px 0%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 50px;
-
-    }
-
-    .footer .interface {
-        padding: 0 6%;
-    }
-
-
-    .flexivel__contatos {
-        display: flex;
-        justify-content: space-between;
+        gap: 40px;
         align-items: center;
-        gap: 50px;
-    } 
+    }
+    .sobre .interface-flex{
+        flex-direction: column-reverse;
+    }
 
-    
+    .cabeca {
+        left: 0;
+        bottom: 0;
+        top: auto;
+        background-color: black;
+        width: 100%;
+        height: 70px;
+
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        transition: none;
+        z-index: 1000;
+    }
+
+    .cabeca:hover {
+        left: 0; 
+    }
+
+    .doc_menu_desktop ul {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        
+        border-radius: 10px 10px 0 0;
+        border: none;
+    }
+
+    .doc_menu_desktop li {
+        margin: 0;
+    }
+
 }

@@ -1,16 +1,13 @@
 
 .home{
-    /* background: linear-gradient(to right, var(--background-color), var(--color-fonte-geral)); */
-    height: 100dvh;
     margin: 0 auto;
-    width: 900px;
+    max-width: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* border: 2px solid var(--color-destaque); */
+    height: 100vh;
 }
-
 
 .label p{
     font: var(--texto-titulos);   
