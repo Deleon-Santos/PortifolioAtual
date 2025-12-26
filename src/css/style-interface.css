@@ -1,0 +1,15 @@
+
+.interface{
+    max-width: 1080px;
+    /* border: 2px solid var(--color-destaque); */
+    padding:0 4%;
+    margin: 0 auto;
+}
+
+.interface-flex{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+}

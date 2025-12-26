@@ -1,0 +1,43 @@
+.oculta {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+  box-shadow: 0 0 40px 10px var(--color-shadown);
+  padding: 0px 4%;
+}
+
+.oculta.show {
+  max-height: 4200px;
+  opacity: 1;
+}
+
+.oculta .interface-flex {
+  width: 100%;
+  padding: 0;
+  flex-direction: column;
+  columns: 1;
+  align-items: center;
+  justify-content: space-between;
+  gap: 90px;
+}
+
+button.hide-btn {
+  padding: 10px 15px;
+  border-radius: 15px;
+  color: var(--color-fonte-geral);
+  background-color: var(--body-background-color);
+  cursor: pointer;
+  margin: 50px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  transform: scale(1);
+  transition: all 0.8s ease-in-out ease-in;
+}
+
+button.hide-btn:hover {
+  transition: all 0.5s ease-in-out ease-in;
+  transform: scale(1.01);
+  color: var(--color-strong);
+  border-color: var(--color-strong);
+}

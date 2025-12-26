@@ -1,0 +1,21 @@
+.sobre {
+  padding-top: 20px;
+}
+
+.sobre .interface-flex {
+  gap: 3rem;
+  padding: 0;
+  margin-bottom: 0px;
+}
+
+.img_sobre img {
+  width: 400px;
+
+  border: 2px solid var(--color-destaque);
+  border-radius: 10px;
+}
+
+.text_sobre p {
+  text-indent: 1rem;
+  margin: 1rem 0;
+}

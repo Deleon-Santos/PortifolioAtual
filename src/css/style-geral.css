@@ -1,0 +1,63 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background-color: black;
+
+  --color-fonte-geral: rgb(104, 103, 102);
+  --color-destaque: rgba(250, 235, 215, 0.72);
+  --color-strong: aqua;
+  --color-shadown: rgba(250, 235, 215, 0.205);
+  --color-backgound-hover: aqua;
+  --color-fonte-hover: black;
+  --fonte-style-geral: "Courier New", Courier, monospace;
+
+  --texto-destaques: bold 4rem var(--fonte-style-geral);
+  --texto-destaques2: bold 4rem var(--fonte-style-geral);
+  --texto-titulos: bold 2rem var(--fonte-style-geral);
+  --texto: normal 1.5 var(--fonte-style-geral);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--fonte-style-geral);
+  color: var(--color-fonte-geral);
+}
+
+.fundo {
+  background-color: var(--background-color);
+  height: 100dvb;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.section-hidden {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.section-visible {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+i {
+  font: var(--texto-destaques);
+}
+
+h1 {
+  font: var(--texto-destaques);
+}
+
+h2 {
+  font: var(--texto-titulos);
+  margin: 3rem 0;
+  text-align: center;
+}
+
+strong {
+  color: var(--color-strong);
+}

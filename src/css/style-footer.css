@@ -1,0 +1,74 @@
+.footer {
+  padding-top: 20px;
+}
+
+.footer .interface form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer form input,
+.footer form textarea {
+  background-color: var(--background-color-2);
+  border: 1px solid var(--color-destaque);
+  padding: 10px;
+  margin-bottom: 10px;
+  color: var(--color-texto);
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.footer form button {
+  width: 100px;
+  background-color: var(--color-destaque);
+  color: var(--color-fonte-hover);
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.footer form button:hover {
+  background-color: var(--color-backgound-hover);
+  color: var(--color-fonte-hover);
+}
+
+.footer p {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid var(--color-destaque);
+  margin-top: 20px;
+}
+
+#submit-btn {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+#submit-btn.loading {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+#submit-btn.loading::after {
+  content: "";
+  width: 18px;
+  height: 18px;
+  border: 3px solid transparent;
+  border-top: 3px solid white;
+  border-radius: 50%;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

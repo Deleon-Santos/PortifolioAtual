@@ -1,0 +1,32 @@
+/* inicio da sessão habilidades */
+.skills {
+    
+    padding-top: 20PX;
+    /* border: 2px solid var(--color-destaque); */
+}
+
+.skills .interface-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:50px;
+}
+
+
+.skills .card-projetos {
+    height: 100px;
+    width: 100px;
+    cursor: default;
+    margin: 0px 0px 0px 0px;
+}
+.skills i{
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
