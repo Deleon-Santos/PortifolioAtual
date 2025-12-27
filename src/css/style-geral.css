@@ -28,9 +28,9 @@ html {
 
 .fundo {
   background-color: var(--background-color);
-  height: 100dvb;
+  height: 100dvi;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 0 2%;
 }
 
 .section-hidden {

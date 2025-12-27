@@ -12,11 +12,14 @@
         font-size: 1.5rem;
     }
     
-    .home{
-        max-width: 560px;
-        padding: 2rem 1rem;
+    .fundo {
+        width:96%;
     }
-
+    .home{
+        height: 80vh;
+        width: 100%;
+    }
+    
     .home p{
         font-size: 1.5rem;
     }
@@ -56,16 +59,17 @@
     }
 
     .doc_menu_desktop ul {
+        width: 90%;
         display: flex;
         flex-direction: row;
-        gap: 1.5rem;
-        
-        border-radius: 10px 10px 0 0;
+        gap: .7rem;
+        justify-content: space-around;
+        /* border-radius: 10px 10px 0 0; */
         border: none;
     }
 
-    .doc_menu_desktop li {
-        margin: 0;
-    }
-
+    
+    .sobre img {
+        max-width: 350px;
+    }   
 }

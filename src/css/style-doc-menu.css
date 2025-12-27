@@ -51,7 +51,7 @@
 .doc_menu_desktop a:hover i {
   background-color: var(--color-backgound-hover);
   color: var(--color-fonte-hover);
-  border-radius: 50%;
+  border-radius: 20%;
   transition: 0.3s;
   transform: scale(1.12);
 }
