@@ -98,3 +98,25 @@ if (params.get('success') === 'true') {
         window.location.href = window.location.pathname;
     });
 }
+
+
+// Menu de navegação responsivo
+let lastScrollTop = 0;
+const cabeca = document.querySelector('.cabeca');
+
+window.addEventListener('scroll', () => {
+  // só executa no mobile
+  if (window.innerWidth > 768) return;
+
+  let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (scrollTop > lastScrollTop) {
+    // scroll para baixo → mostra
+    cabeca.classList.remove('hide');
+  } else {
+    // scroll para cima → oculta
+    cabeca.classList.add('hide');
+  }
+
+  lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+});

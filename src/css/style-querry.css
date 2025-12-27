@@ -1,10 +1,6 @@
 @media screen and (max-width: 970px) {
-    i {
+    i, h1{
         font-size: 2.5rem;
-    }
-
-    h1 {
-        font-size:2.5rem;
     }
 
     h2 {
@@ -49,8 +45,13 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        transition: none;
+        transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        transform: translateY(0);
         z-index: 1000;
+    }
+
+    .cabeca.hide {
+        transform: translateY(100%);
     }
 
     .cabeca:hover {
