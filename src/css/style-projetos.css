@@ -7,7 +7,7 @@
   margin-top: 30px;
 }
 .projetos .interface-flex {
-  gap: 20px;
+  gap: 40px;
 }
 .card-projetos {
   background-color: var(--background-color);
@@ -15,7 +15,7 @@
   border-radius: 10px;
   box-shadow: 0.5px 0.5px 4px 3.5px var(--color-destaque);
   padding: 20px;
-  margin: 10px;
+  /* margin: 10px; */
   text-align: center;
   max-width: 400px;
   height: 230px;
