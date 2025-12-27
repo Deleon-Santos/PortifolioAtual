@@ -1,7 +1,7 @@
 .portifolio {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr; /* duas colunas iguais */
+  grid-template-columns: 1fr 1fr; 
   gap: 2%;
   align-items: center;
   justify-items: space-between;
@@ -12,14 +12,12 @@
 
 .portifolio div {
   gap: 20px;
-  border: 2px solid var(--color-destaque);
   padding: 0;
   margin: 0 auto;
 }
 
 .img_port {
   margin: 0 auto;
-  border: solid 2px var(--color-destaque);
   width: 450px;
   height: 350px;
   background-size: cover;
@@ -66,7 +64,6 @@
 
 .over:hover a {
   cursor: pointer;
-  border: solid 2px var(--color-destaque);
   padding: 10px 20px;
   border-radius: 10px;
   transform: scale(1.02);
@@ -86,7 +83,11 @@
   color: var(--color-fonte-geral);
   font-size: 1.2rem;
   font-weight: 600;
+  border-radius: 10px;
   border: 2px solid var(--color-destaque);
+}
+.desc-repositorio p {
+  margin: 10px;
 }
 
 .used-skill {

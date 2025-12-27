@@ -15,7 +15,7 @@
     .fundo {
         width:96%;
     }
-    
+
     .home{
         height: 80vh;
         width: 100%;
@@ -83,5 +83,8 @@
 
     .img_port {   
         width: 100%;
+    }
+    .footer p{
+        padding-bottom: 70px;
     }
 }
