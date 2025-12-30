@@ -28,7 +28,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head><!--  fim head -->
 
-<body class="fundo"> <!-- Inicio do corpo do projeto -->
+<body class="fundo "> <!-- Inicio do corpo do projeto -->
     <header class="cabeca"> <!--  inicio de seção cabeça-->
         
             <!-- Menu Desktop -->
@@ -49,7 +49,7 @@
         <section class="home interface-flex" id="home">
             <div class="label">
                 <div>
-                    <h1>Hello World!👋 <br><span>Eu sou <strong id="typing"></strong></span></h1>
+                    <h1>Hello World!<span id="hand" class="aceno">👋</span> <br><span>Eu sou <strong id="typing"></strong></span></h1>
                     <p>Desenvolvedor Python e estudante de tecnologias Full-stack </p>
                     <nav class="redes__sociais">                   
                             <a href="https://www.linkedin.com/in/deleon-santos-1b835a290/" target="_blank"><i
@@ -61,6 +61,7 @@
             </div>           
            
         </section><!--fim da seção corpo-->
+
         <section class="projetos" id="projetos">     
             <h2 class="titulo">Meus <strong>Projetos</strong></h2>           
             <div class="interface-flex">
@@ -83,393 +84,40 @@
             </div>     
         </section>
 
-        <!-- a classe .oculta agrupa todos os projetos -->
-        <aside class="oculta" id="deploy"> <!-- Inicio da seção oculta -->
+
+        <!-- Inicio da classe oculta -->
+        <aside class="oculta" id="deploy">
             <div>
                 <h2 class="titulo">Aplicações Web com <strong>Deploy</strong></h2>
-                <div class="interface-flex">
-                    <div class="portifolio">
-                        <div>                          
-                            <div class="img_port" style="background-image: url(./src/img/Bocanervosa.png);">
-                                <div class="over"><a href="https://gestaocomandas-xnuslt9x66pp6w5oad3r2t.streamlit.app/"
-                                        target="_blank">Ver Deploy</a>
-                                </div>
-                            </div>
-                             <h3>Gestão Comandas</h3>
-                        </div> 
-
-                        <div class="desc-repositorio">                          
-                            <p>
-                                "De Gota em Gota" é um projeto dedicado a conscientização a presenvação dos recursos naturais.
-                                Site desenvolvido na faze "projeto" para a minha extensionista 2, e implementado na comunidade local atravez das redes sociais.
-                            </p>                       
-                            <div class="used-skill">
-                                <i class="fa-brands fa-python"></i> 
-                            </div>
-                                <span> <a href="https://github.com/Deleon-Santos/Gestao_Comandas/blob/master/README.md" target="_blank"
-                                    class="repositorio">Repositório</a> 
-                                </span>
-                            </div>  
-                    </div>
-                    <div class="portifolio">
-                        <div>                          
-                            <div class="img_port" style="background-image: url(./src/img/Degotaemgotas.png);">
-                                <div class="over"><a href="https://deleon-santos.github.io/De-gota-em-gota/"
-                                        target="_blank">Ver Deploy</a>
-                                </div>
-                            </div>
-                             <h3>De Gota em Gota!</h3>
-                        </div> 
-
-                        <div class="desc-repositorio">                          
-                            <p>
-                                "De Gota em Gota" é um projeto dedicado a conscientização a presenvação dos recursos naturais.
-                                Site desenvolvido na faze "projeto" para a minha extensionista 2, e implementado na comunidade local atravez das redes sociais.
-                            </p>                       
-                            <div class="used-skill"><i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3-alt"></i><i class="fa-brands fa-js"></i></div>
-                                <span> <a href="https://github.com/Deleon-Santos/De-gota-em-gota?tab=readme-ov-file" target="_blank"
-                                    class="repositorio">Repositório</a> 
-                                </span>
-                            </div>  
-                    </div>
-
-                    <div class="portifolio">
-                    <div>                          
-                        <div class="img_port" style="background-image: url(./src/img/Livraria.png);">
-                            <div class="over"><a href="https://deleon-santos.github.io/Front-FlaskAPI/"
-                                    target="_blank">Ver Deploy</a>
-                            </div>
-                        </div>
-                            <h3>Livravia Fullstack</h3>
-                    </div> 
-
-                    <div class="desc-repositorio">                          
-                        <p>
-                                Projeto Python Fullstack desenvolvido com o framework Flask para o back-end, banco de dados postgre e front-end em HTML, CSS e JavaScript.
-                            O projeto completo esta hospedado no Render.
-                        </p>                       
-                        <div class="used-skill"><i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3-alt"></i><i class="fa-brands fa-js"></i><i class="fa-brands fa-python"></i></div>
-                            <span> <a href="https://github.com/Deleon-Santos/De-gota-em-gota?tab=readme-ov-file" target="_blank"
-                                class="repositorio">Repositório</a> 
-                            </span>
-                        </div>  
-                    </div>
-                    
-                    <div class="portifolio">
-                    <div>                          
-                        <div class="img_port" style="background-image: url(./src/img/Calculadora.png);">
-                            <div class="over"><a href="https://deleon-santos.github.io/Calculadora-html/"
-                                    target="_blank">Ver Deploy</a>
-                            </div>
-                        </div>
-                            <h3>Calculadora Web</h3>
-                    </div> 
-
-                    <div class="desc-repositorio">                          
-                        <p>
-                                O projeto Calculadora Web é autoral e foi desenvolvida para
-                            aplicar meus conhecimentos em Front-End, é funcional e aborda conceitos de HTML, CSS e
-                            também JavaScript
-                        </p>                        
-                        <div class="used-skill"><i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3-alt"></i><i class="fa-brands fa-js"></i></div>
-                            <span> <a href="https://deleon-santos.github.io/Calculadora-html" target="_blank"
-                                class="repositorio">Repositório</a> 
-                            </span>
-                        </div>  
-                    </div>  
-                </div><!--fim de interface-->
+                <div class="interface-flex" id="deploy-projects"><!--cards classe oclta sera carregada aqui --></div>
                 <button class="hide-btn">Voltar</button>
             </div>
-        </aside>
+            </aside>
 
         <aside class="oculta" id="descktop">
             <div class="interface">
-                <h2 class="titulo">Aplicações para desktop com <strong>Iterface Gráfica</strong></h2>
-                <div class="interface-flex">
-                    <div class="portifolio">
-                        <div>
-                            <div class="img_port" style="background-image: url(./src/img/valquiria.png);">
-                                <div class="over">
-                                    <a href="https://github.com/Deleon-Santos/APP-Valquiria-CTKinter" target="_blank">
-                                        Sistema Valquiria
-                                    </a>
-                                </div>
-                            </div>
-                            <h3>Valquiria PDV</h3>
-                        </div>
-
-                        <div class="desc-repositorio">
-                            <p>
-                                O Valquiria é um sistema de gestão de vendas do tipo varejo mercadista.
-                                Suas funcionalidades incluem cadastrar, registrar, gerenciar e imprimir cupons.
-                                Foi desenvolvido em Python, CustomTkinter, Pillow, SQLite3, Reportlab e Datetime
-                                com estrutura modular.
-                            </p>
-
-                            <div class="used-skill">
-                                <i class="fa-brands fa-python"></i>
-                                <i class="fa-solid fa-database"></i>
-                                <i class="fa-solid fa-file-pdf"></i>
-                            </div>
-
-                            <span>
-                                <a href="https://github.com/Deleon-Santos/APP-Valquiria-CTKinter" target="_blank" class="repositorio">
-                                    Repositório
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="portifolio">
-                        <div>
-                            <div class="img_port" style="background-image: url(./src/img/cadastra\ item.png);">
-                                <div class="over">
-                                    <a href="https://github.com/Deleon-Santos/Cadastra-itens" target="_blank">
-                                        Cadastra Item
-                                    </a>
-                                </div>
-                            </div>
-                            <h3>Cadastra Itens</h3>
-                        </div>
-
-                        <div class="desc-repositorio">
-                            <p>
-                                Essa aplicação foi desenvolvida em Python, Pandas, SQL e usa a biblioteca PySimpleGUI
-                                para gerar uma interface intuitiva. Cadastra itens no banco de dados relacional e gera
-                                uma planilha .XLS para visualização no Excel.
-                            </p>
-
-                            <div class="used-skill">
-                                <i class="fa-brands fa-python"></i>
-                                <i class="fa-solid fa-database"></i>
-                                <i class="fa-solid fa-file-excel"></i>
-                            </div>
-
-                            <span>
-                                <a href="https://github.com/Deleon-Santos/Cadastra-itens" target="_blank" class="repositorio">
-                                    Repositório
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="portifolio">
-                        <div>
-                            <div class="img_port" style="background-image: url(./src/img/le\ postits.png);">
-                                <div class="over">
-                                    <a href="https://github.com/Deleon-Santos/Le-Postitis" target="_blank">
-                                        Le Postits
-                                    </a>
-                                </div>
-                            </div>
-                            <h3>Le Postits</h3>
-                        </div>
-
-                        <div class="desc-repositorio">
-                            <p>
-                                É uma solução para agendamento e gestão do tipo To Do List.
-                                As tarefas são criadas e podem ser editadas ou excluídas em uma interface intuitiva.
-                            </p>
-
-                            <div class="used-skill">
-                                <i class="fa-brands fa-python"></i>
-                            </div>
-
-                            <span>
-                                <a href="https://github.com/Deleon-Santos/Le-Postitis" target="_blank" class="repositorio">
-                                    Repositório
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-   
-                </div>
+                <h2 class="titulo">Aplicações para desktop com <strong>Interface Gráfica</strong></h2>
+                <div class="interface-flex" id="desktop-projects"><!--cards classe oclta sera carregada aqui --></div>
                 <button class="hide-btn">Voltar</button>
             </div>
-        </aside> 
+        </aside>
 
         <aside class="oculta" id="console">
             <div class="interface">
                 <h2 class="titulo">Aplicações dedicadas a <strong>Console</strong></h2>
-                <div class="interface-flex">
-                    <div class="portifolio">
-                        <div>
-                            <div class="img_port" style="background-image: url(./src/img/Cadastra\ Pessoas.png);">
-                                <div class="over">
-                                    <a href="https://github.com/Deleon-Santos/cadastro-de-pessoas" target="_blank">
-                                        Cadastr Pessoas
-                                    </a>
-                                </div>
-                            </div>
-                            <h3>Cadastrar Pessoas</h3>
-                        </div>
-
-                        <div class="desc-repositorio">
-                            <p>
-                                Este projeto utiliza o banco de dados MySQL para armazenar informações e roda em terminal.
-                                Ele oferece funcionalidades para cadastrar, listar e consultar, além de calcular a média
-                                de idade e listar pessoas por sexo.
-                            </p>
-
-                            <div class="used-skill">
-                                <i class="fa-brands fa-python"></i>
-                                <i class="fa-solid fa-database"></i>
-                            </div>
-
-                            <span>
-                                <a href="https://github.com/Deleon-Santos/cadastro-de-pessoas" target="_blank" class="repositorio">
-                                    Repositório
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="portifolio">
-                        <div>
-                            <div class="img_port" style="background-image: url(./src/img/comanda_img.png);">
-                                <div class="over">
-                                    <a href="https://github.com/Deleon-Santos/Comanda_lanchonet" target="_blank">
-                                        Comandas lanches
-                                    </a>
-                                </div>
-                            </div>
-                            <h3>Comandas Lanchonetes</h3>
-                        </div>
-
-                        <div class="desc-repositorio">
-                            <p>
-                                Este software gerencia comandas em lanchonetes. Ele permite aos usuários fazer pedidos,
-                                consultas, ver o cardápio e calcular o total de vendas por dia através do banco SQLite3.
-                                Possui estrutura modular.
-                            </p>
-
-                            <div class="used-skill">
-                                <i class="fa-brands fa-python"></i>
-                                <i class="fa-solid fa-database"></i>
-                            </div>
-
-                            <span>
-                                <a href="https://github.com/Deleon-Santos/Comanda_lanchonet" target="_blank" class="repositorio">
-                                    Repositório
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="portifolio">
-                        <div>
-                            <div class="img_port" style="background-image: url(./src/img/livros.png);">
-                                <div class="over">
-                                    <a href="https://github.com/Deleon-Santos/livraria" target="_blank">
-                                        Livros
-                                    </a>
-                                </div>
-                            </div>
-                            <h3>Livraria</h3>
-                        </div>
-
-                        <div class="desc-repositorio">
-                            <p>
-                                O sistema foi desenvolvido para armazenar informações de livros utilizando filtros de
-                                entradas e consultas a um banco de dados integrado ao código e em linguagem orientada
-                                a objetos.
-                            </p>
-
-                            <div class="used-skill">
-                                <i class="fa-brands fa-python"></i> <i class="fa-brands fa-database"></i>
-                            </div>
-
-                            <span>
-                                <a href="https://github.com/Deleon-Santos/livraria" target="_blank" class="repositorio">
-                                    Repositório
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="portifolio">
-                        <div>
-                            <div class="img_port" style="background-image: url(./src/img/Calculadora%20Binaria.png);">
-                                <div class="over">
-                                    <a href="https://github.com/Deleon-Santos/colculadora-binaria" target="_blank">
-                                        Calcula Binaria
-                                    </a>
-                                </div>
-                            </div>
-                            <h3>Calculadora Binaria</h3>
-                        </div>
-
-                        <div class="desc-repositorio">
-                            <p>
-                                Aplicação desenvolvida para facilitar o entendimento e ajudar nas atividades de matemática
-                                aplicada à computação. Converter binário-decimal, hexadecimal-decimal, decimal-binário,
-                                decimal-hexadecimal.
-                            </p>
-
-                            <div class="used-skill">
-                                <i class="fa-brands fa-python"></i>
-                            </div>
-
-                            <span>
-                                <a href="https://github.com/Deleon-Santos/colculadora-binaria" target="_blank" class="repositorio">
-                                    Repositório
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
+                <div class="interface-flex" id="console-projects"><!--cards classe oclta sera carregada aqui --></div>
                 <button class="hide-btn">Voltar</button>
             </div>
         </aside>
 
-         <aside class="skills" id="habilidades"> 
-            <div >
+        <aside class="skills" id="habilidades">
+            <div>
                 <h2 class="titulo">Habili<strong>dades</strong></h2>
-             
-                <div class='interface-flex'>
-                    <div class="card-projetos">
-                        <i class="fa-brands fa-html5"></i>
-                        <h3>HTML</h3>
-                    </div>
-                    <div class="card-projetos">
-                        <i class="fa-brands fa-css3-alt"></i>
-                        <h3>CSS</h3>
-                    </div>
-                    <div class="card-projetos">
-                        <i class="fa-brands fa-js"></i>
-                        <h3>JS</h3>
-                    </div>
-                    <div class="card-projetos">
-                        <i class="fa-brands fa-python"></i>
-                        <h3>PYTHON</h3>
-                    </div>
-                    <div class="card-projetos">
-                        <i class="fa-brands fa-java"></i>
-                        <h3>JAVA</h3>
-                    </div>
-                    <div class="card-projetos">
-                        <i class="fa-solid fa-database"></i>
-                        <h3>SQL</h3>
-                    </div>
-                    <div class="card-projetos">
-                        <i class="fa-brands fa-figma"></i>
-                        <h3>FIGMA</h3>
-                    </div>
-                    <div class="card-projetos">
-                        <i class="fa-solid fa-diagram-project"></i>
-                        <h3>UML</h3>
-                    </div>
-                    <div class="card-projetos">
-                        <i class="fa-brands fa-git-alt"></i>
-                        <h3>GIT</h3>
-                    </div>
-                    <div class="card-projetos">
-                        <i class="fa-brands fa-github"></i>
-                        <h3>GITHUB</h3>
-                    </div>
+                <div class="interface-flex" id="skills-container">
+                    <!-- classe skill sera carregada aqui -->
                 </div>
             </div>
-        </aside> 
+        </aside>
 
         <section class="sobre" id="sobre-mim">
         
@@ -492,15 +140,13 @@
                     <img src="./src/img/baner2.jpg" alt="">
                 </div>               
             </div>
-        </section><!--fim da seção sobre-->
-    </main><!-- final da seção main -->
+        </section>
+    </main>
 
+    
     <footer class="footer" id="contato">
-        <div class="interface">
-            
-                          
-                <h2>Desenvolvedo tecnologias <strong>para o futuro</strong>.</h2>
-
+        <div class="interface">             
+                <h2>Vamos <strong>Conversar?</strong></h2>
                 <form id="contato-form"
                     action="https://formsubmit.co/delps.santos1987@gmail.com"
                     method="POST">
@@ -521,12 +167,15 @@
                     <button type="submit" id="submit-btn">
                         Enviar
                     </button>
-                </form>
-            
+                </form>           
             <p >Deleon Santos. Todos os direitos reservados.</p>
         </div>
     </footer ><!-- fim da seção footer -->
+
+
     <script src="./src/scripts/script.js"></script>
+    <script src="./src/scripts/oculta.js"></script>
+    <script src="./src/scripts/skills.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </body>

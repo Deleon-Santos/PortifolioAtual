@@ -9,14 +9,14 @@
 </p>
 
 ## Visão Geral
-Este portfólio reflete minhas habilidades como desenvolvedor fullstack, além de minha paixão por tecnologia, pela vida e pela familia. O site foi projetado para exibir minhas competências técnicas, projetos desenvolvidos e a importância que a tecnologia tem em facilitar o nosso dia a dia.
+Este portfólio reflete minhas habilidades como desenvolvedor fullstack. O site foi projetado para exibir minhas competências técnicas, projetos desenvolvidos e a importância que a tecnologia tem em facilitar o nosso dia a dia.
 
-## Objetivos do Portfólio
+## Portfólio
 Este portfólio tem como principais objetivos:
-- Apresentar-me como um desenvolvedor fullstack, com habilidades em diversas tecnologias.
-- Demonstrar o meu conhecimento em **HTML**, **CSS**, **JavaScript**, **Python** , **bancos de dados** e outras tecnologias para desenvolvimneto de sistemas e soluções com use de tecnologia.
-- Compartilhar minha trajetória pessoal e profissional, destacando o equilíbrio entre responsabilidade, trabalho e lazer.
-- Mostrar meus projetos desenvolvidos, focando em aplicações web, desktop e de linha de comando utilizando as principais linguagens de programação.
+- Apresentar-me como um desenvolvedor fullstack.
+- Demonstrar o meu conhecimento em **HTML**, **CSS**, **JavaScript**, **Python** , **bancos de dados** e outras tecnologias para desenvolvimneto de sistemas e aplicações Web.
+- Compartilhar minha trajetória pessoal e profissional.
+- Mostrar meus projetos focando em aplicações web, desktop e automação utilizando as principais linguagens de programação.
 
 ## Público-Alvo
 - Empresas e profissionais em busca de desenvolvedores fullstack.
@@ -26,16 +26,17 @@ Este portfólio tem como principais objetivos:
 ## Estrutura do Portfólio
 O portfólio é organizado em várias seções:
 
-- **Home:** Uma introdução pessoal com uma mensagem calorosa: _"Hello World! Eu sou Deleon Santos!"_ Destaco meu amor por tecnologia e por ambientes familiares.
-  
-- **Sobre Mim:** Apresentação pessoal, mencionando minha trajetória profissional, meu gosto por viagens e pela convivência com amigos e familiares, além da paixão contínua por tecnologia.
+- **Home:** Uma introdução pessoal com uma mensagem calorosa: _"Hello World! Eu sou Deleon Santos!"_.
+
+- **Sobre Mim:** Apresentação pessoal.
 
 - **Projetos:** Um portfólio visual dividido em três categorias:
-  - **Deploy:** Aplicações web desenvolvidas com **HTML**, **CSS**, e **JavaScript**.
+
+  - **Deploy:** Aplicações web desenvolvidas com **HTML**, **CSS**, **JavaScript** e ou **Streamlit**.
   - **Interface:** Aplicações desktop com interface gráfica desenvolvidas em **Python**.
-  - **Console:** Aplicações de backend e scripts de linha de comando em **Python**.
+  - **Console:** Aplicações de backend e scripts de linha de comando em **Python**, **Java** ou **C#**.
   
-- **Habilidades:** Exibição das principais competências técnicas, como **HTML**, **CSS**, **JavaScript**, **Python**, e **bancos de dados**.
+- **Habilidades:** Exibição das principais competências técnicas, como **HTML**, **CSS**, **JavaScript**, **Python**, **Java**, **C#** e **SQL**.
 
 - **Redes e Contatos:** Links para minhas redes sociais, como **LinkedIn** e **GitHub**, além de e-mail e acesso ao currículo.
 

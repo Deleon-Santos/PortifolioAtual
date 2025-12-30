@@ -1,6 +1,7 @@
 // Animação de digitação
 const textos = ["DELEON SANTOS"];
 const elemento = document.getElementById("typing");
+const hand = document.getElementById("hand");
 
 let textoIndex = 0;
 let letraIndex = 0;
@@ -17,6 +18,7 @@ function animarTexto() {
             setTimeout(animarTexto, 120);
         } else {
             // pausa antes de apagar
+            hand.classList.add("wave");
             setTimeout(() => apagando = true, 1500);
             setTimeout(animarTexto, 1500);
         }
@@ -63,8 +65,7 @@ const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             entry.target.classList.add('section-visible');
-        }
-    
+        }    
     });
 });
 
@@ -106,7 +107,7 @@ const cabeca = document.querySelector('.cabeca');
 
 window.addEventListener('scroll', () => {
   // só executa no mobile
-  if (window.innerWidth > 768) return;
+  if (window.innerWidth > 970) return;
 
   let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
