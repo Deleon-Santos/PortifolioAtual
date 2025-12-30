@@ -1,14 +1,17 @@
 .projetos {
   padding-top: 20px;
 }
+
 .projetos h3 {
   text-align: center;
   font: var(--texto);
   margin-top: 30px;
 }
+
 .projetos .interface-flex {
   gap: 40px;
 }
+
 .card-projetos {
   background-color: var(--background-color);
   border: 0.3px solid var(--color-destaque);

@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Desenvolvedor ">
-    <title>Deleon Santos</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Desenvolvedor ">
+        <title>Deleon Santos</title>
 
-    <!--Link de favicon -->
-    <link rel="shortcut icon" href="./imagem/favicon-curriculo-vitae.jpg" type="image/x-icon">
+        <!--Link de favicon -->
+        <link rel="shortcut icon" href="./imagem/favicon-curriculo-vitae.jpg" type="image/x-icon">
 
-    <link rel="stylesheet" href="./src/css/style-geral.css">
-    <link rel="stylesheet" href="./src/css/style-interface.css">
-    <link rel="stylesheet" href="./src/css/style-doc-menu.css">
-    <link rel="stylesheet" href="./src/css/style-home.css">
-    <link rel="stylesheet" href="./src/css/style-sobre.css">
-    <link rel="stylesheet" href="./src/css/style-habilidade.css">
-    <link rel="stylesheet" href="./src/css/style-footer.css">
-    <link rel="stylesheet" href="./src/css/style-projetos.css">
-    <link rel="stylesheet" href="./src/css/style-oculta.css">
-    <link rel="stylesheet" href="./src/css/style-portifolios.css">
-    
-    <link rel="stylesheet" href="./src/css/style-querry.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head><!--  fim head -->
-
-<body class="fundo "> <!-- Inicio do corpo do projeto -->
-    <header class="cabeca"> <!--  inicio de seção cabeça-->
+        <link rel="stylesheet" href="./src/css/style-geral.css">
+        <link rel="stylesheet" href="./src/css/style-interface.css">
+        <link rel="stylesheet" href="./src/css/style-doc-menu.css">
+        <link rel="stylesheet" href="./src/css/style-home.css">
+        <link rel="stylesheet" href="./src/css/style-sobre.css">
+        <link rel="stylesheet" href="./src/css/style-habilidade.css">
+        <link rel="stylesheet" href="./src/css/style-footer.css">
+        <link rel="stylesheet" href="./src/css/style-projetos.css">
+        <link rel="stylesheet" href="./src/css/style-oculta.css">
+        <link rel="stylesheet" href="./src/css/style-portifolios.css">
         
+        <link rel="stylesheet" href="./src/css/style-querry.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head><!--  fim head -->
+
+    <body class="vewport"> <!-- Inicio do corpo do projeto -->
+        <header class="cabeca"> <!--  inicio de seção cabeça-->
+            
             <!-- Menu Desktop -->
             <nav class="doc_menu_desktop">
                 <ul>
@@ -42,141 +42,141 @@
                     <li><a href="https://drive.google.com/file/d/1fTMtHARIk75NvMXNgukopxEaMYlLdTM9/view?usp=sharing" target="_blank"><abbr title="CV"><i class="fa-solid fa-download"></i></abbr></a></li>
                 </ul>
             </nav>          
-        </div>
-    </header> <!-- fim da seção header -->
-  
-    <main class="interface">
-        <section class="home interface-flex" id="home">
-            <div class="label">
+            
+        </header> <!-- fim da seção header -->
+    
+        <main class="interface">
+            <section class="home interface-flex" id="home">
+                <div class="label">
+                    <div>
+                        <h1>Hello World!<span id="hand" class="aceno">👋</span> <br><span>Eu sou <strong id="typing"></strong></span></h1>
+                        <p>Desenvolvedor Python e estudante de tecnologias Full-stack </p>
+                        <div class="redes__sociais">                   
+                                <a href="https://www.linkedin.com/in/deleon-santos-1b835a290/" target="_blank"><i
+                                        class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://github.com/Deleon-Santos" target="_blank"><i
+                                        class="fa-brands fa-github"></i></a>               
+                                </div>
+                    </dic>
+                </div>           
+            
+            </section><!--fim da seção corpo-->
+
+            <section class="projetos" id="projetos">     
+                <h2 class="titulo">Meus <strong>Projetos</strong></h2>           
+                <div class="interface-flex">
+                    
+                    <div class="card-projetos mostra-projetos"data-target="deploy">
+                        <i class="fa-solid fa-globe"></i>
+                        <h3>Deploy</h3>
+                        <p>Aplicações frot-end desenvolvidas em HTML, CSS e JavaScript</p>
+                    </div>
+                    <div class="card-projetos mostra-projetos" data-target="descktop">
+                        <i class="fa-brands fa-python"></i>
+                        <h3>Interface</h3>
+                        <p>Aplicações desenvolvidas em Python utilizando interface gráfica </p>
+                    </div>
+                    <div class="card-projetos mostra-projetos"  data-target="console">
+                        <i class="fa-brands fa-python"></i>
+                        <h3>Console</h3>
+                        <p>Aplicações back-end desenvolvidas com Python baseadas em console </p>
+                    </div>
+                </div>     
+            </section>
+
+
+            <!-- Inicio da classe oculta -->
+            <aside class="oculta" id="deploy">
                 <div>
-                    <h1>Hello World!<span id="hand" class="aceno">👋</span> <br><span>Eu sou <strong id="typing"></strong></span></h1>
-                    <p>Desenvolvedor Python e estudante de tecnologias Full-stack </p>
-                    <nav class="redes__sociais">                   
-                            <a href="https://www.linkedin.com/in/deleon-santos-1b835a290/" target="_blank"><i
-                                    class="fa-brands fa-linkedin"></i></a>
-                            <a href="https://github.com/Deleon-Santos" target="_blank"><i
-                                    class="fa-brands fa-github"></i></a>               
-                    </nav>
-                </dic>
-            </div>           
-           
-        </section><!--fim da seção corpo-->
-
-        <section class="projetos" id="projetos">     
-            <h2 class="titulo">Meus <strong>Projetos</strong></h2>           
-            <div class="interface-flex">
-                
-                <div class="card-projetos mostra-projetos"data-target="deploy">
-                    <i class="fa-solid fa-globe"></i>
-                    <h3>Deploy</h3>
-                    <p>Aplicações frot-end desenvolvidas em HTML, CSS e JavaScript</p>
+                    <h2 class="titulo">Aplicações Web com <strong>Deploy</strong></h2>
+                    <div class="interface-flex" id="deploy-projects"><!--cards classe oclta sera carregada aqui --></div>
+                    <button class="hide-btn">Voltar</button>
                 </div>
-                <div class="card-projetos mostra-projetos" data-target="descktop">
-                    <i class="fa-brands fa-python"></i>
-                    <h3>Interface</h3>
-                    <p>Aplicações desenvolvidas em Python utilizando interface gráfica </p>
-                </div>
-                <div class="card-projetos mostra-projetos"  data-target="console">
-                    <i class="fa-brands fa-python"></i>
-                    <h3>Console</h3>
-                    <p>Aplicações back-end desenvolvidas com Python baseadas em console </p>
-                </div>
-            </div>     
-        </section>
+                </aside>
 
-
-        <!-- Inicio da classe oculta -->
-        <aside class="oculta" id="deploy">
-            <div>
-                <h2 class="titulo">Aplicações Web com <strong>Deploy</strong></h2>
-                <div class="interface-flex" id="deploy-projects"><!--cards classe oclta sera carregada aqui --></div>
-                <button class="hide-btn">Voltar</button>
-            </div>
+            <aside class="oculta" id="descktop">
+                <div class="interface">
+                    <h2 class="titulo">Aplicações para desktop com <strong>Interface Gráfica</strong></h2>
+                    <div class="interface-flex" id="desktop-projects"><!--cards classe oclta sera carregada aqui --></div>
+                    <button class="hide-btn">Voltar</button>
+                </div>
             </aside>
 
-        <aside class="oculta" id="descktop">
-            <div class="interface">
-                <h2 class="titulo">Aplicações para desktop com <strong>Interface Gráfica</strong></h2>
-                <div class="interface-flex" id="desktop-projects"><!--cards classe oclta sera carregada aqui --></div>
-                <button class="hide-btn">Voltar</button>
-            </div>
-        </aside>
-
-        <aside class="oculta" id="console">
-            <div class="interface">
-                <h2 class="titulo">Aplicações dedicadas a <strong>Console</strong></h2>
-                <div class="interface-flex" id="console-projects"><!--cards classe oclta sera carregada aqui --></div>
-                <button class="hide-btn">Voltar</button>
-            </div>
-        </aside>
-
-        <aside class="skills" id="habilidades">
-            <div>
-                <h2 class="titulo">Habili<strong>dades</strong></h2>
-                <div class="interface-flex" id="skills-container">
-                    <!-- classe skill sera carregada aqui -->
+            <aside class="oculta" id="console">
+                <div class="interface">
+                    <h2 class="titulo">Aplicações dedicadas a <strong>Console</strong></h2>
+                    <div class="interface-flex" id="console-projects"><!--cards classe oclta sera carregada aqui --></div>
+                    <button class="hide-btn">Voltar</button>
                 </div>
-            </div>
-        </aside>
+            </aside>
 
-        <section class="sobre" id="sobre-mim">
+            <section class="skills" id="habilidades">
+                <div>
+                    <h2 class="titulo">Habili<strong>dades</strong></h2>
+                    <div class="interface-flex" id="skills-container">
+                        <!-- classe skill sera carregada aqui -->
+                    </div>
+                </div>
+            </section>
+
+            <section class="sobre" id="sobre-mim">
+            
+                <h2 class="titulo">Sobre <strong>mim</strong></h2>
+                <div class="interface-flex">
+                    
+                    <div class="text_sobre">
+                        <h3>Olá! podem me chamar de Leon! sou desenvolvedor Fullsatack, amante de tecnologias.
+                        </h3>
+                        <p>Atualmente estou aplicando na área de Desenvolvimento Fullstack, atuo com Python e suas bibliotecas para criação de APIs(Flask e Django), 
+                            automação e integração com bancos de dados relacionais (MySQL, PostgreSQL). 
+                        <p>
+                            Em paralelo aplico boas práticas no desenvolvimento de aplicações web utilizando HTML5 semântico,
+                            CSS3 responsivo e JavaScript para interfaces dinâmicas e adaptáveis.
+                        </p> 
+                        <p>Meu objetivo é me consolidar minha como Desenvolvedor Fullstack e desenvolver softwares em um ambiente corporativo.</p>       
+                    </div>
+
+                    <div class="img_sobre">
+                        <img src="./src/img/baner2.jpg" alt="">
+                    </div>               
+                </div>
+            </section>
+        </main>
+
         
-            <h2 class="titulo">Sobre <strong>mim</strong></h2>
-            <div class="interface-flex">
-                
-                <div class="text_sobre">
-                    <h3>Olá! podem me chamar de Leon! sou desenvolvedor Fullsatack, amante de tecnologias.
-                    </h3>
-                    <p>Atualmente estou aplicando na área de Desenvolvimento Fullstack, atuo com Python e suas bibliotecas para criação de APIs(Flask e Django), 
-                        automação e integração com bancos de dados relacionais (MySQL, PostgreSQL). 
-                    <p>
-                        Em paralelo aplico boas práticas no desenvolvimento de aplicações web utilizando HTML5 semântico,
-                        CSS3 responsivo e JavaScript para interfaces dinâmicas e adaptáveis.
-                    </p> 
-                    <p>Meu objetivo é me consolidar minha como Desenvolvedor Fullstack e desenvolver softwares em um ambiente corporativo.</p>       
-                </div>
+        <footer class="footer" id="contato">
+            <div class="interface">             
+                    <h2>Vamos <strong>Conversar?</strong></h2>
+                    <form id="contato-form"
+                        action="https://formsubmit.co/delps.santos1987@gmail.com"
+                        method="POST">
 
-                <div class="img_sobre">
-                    <img src="./src/img/baner2.jpg" alt="">
-                </div>               
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next"
+                            value="https://deleon-santos.github.io/PortifolioAtual/?success=true">
+
+                        <label>Nome</label>
+                        <input type="text" name="nome" required>
+
+                        <label>Email</label>
+                        <input type="email" name="email" required>
+
+                        <label>Mensagem</label>
+                        <textarea name="mensagem" rows="5" required></textarea>
+
+                        <button type="submit" id="submit-btn">
+                            Enviar
+                        </button>
+                    </form>           
+                <p >Deleon Santos. Todos os direitos reservados.</p>
             </div>
-        </section>
-    </main>
-
-    
-    <footer class="footer" id="contato">
-        <div class="interface">             
-                <h2>Vamos <strong>Conversar?</strong></h2>
-                <form id="contato-form"
-                    action="https://formsubmit.co/delps.santos1987@gmail.com"
-                    method="POST">
-
-                    <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_next"
-                        value="https://deleon-santos.github.io/PortifolioAtual/?success=true">
-
-                    <label>Nome</label>
-                    <input type="text" name="nome" required>
-
-                    <label>Email</label>
-                    <input type="email" name="email" required>
-
-                    <label>Mensagem</label>
-                    <textarea name="mensagem" rows="5" required></textarea>
-
-                    <button type="submit" id="submit-btn">
-                        Enviar
-                    </button>
-                </form>           
-            <p >Deleon Santos. Todos os direitos reservados.</p>
-        </div>
-    </footer ><!-- fim da seção footer -->
+        </footer ><!-- fim da seção footer -->
 
 
-    <script src="./src/scripts/script.js"></script>
-    <script src="./src/scripts/oculta.js"></script>
-    <script src="./src/scripts/skills.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="./src/scripts/script.js"></script>
+        <script src="./src/scripts/oculta.js"></script>
+        <script src="./src/scripts/skills.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-</body>
+    </body>
 </html>

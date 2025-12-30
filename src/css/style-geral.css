@@ -27,7 +27,7 @@ html {
   color: var(--color-fonte-geral);
 }
 
-.fundo {
+.vewport {
   background-color: var(--background-color);
   /* min-height: 100dvh;  */
   margin: 0 auto;
