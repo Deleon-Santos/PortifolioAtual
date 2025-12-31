@@ -78,6 +78,10 @@
         gap: 20px;
     }
 
+    .oculta .button.hide-btn {
+        margin: 15px 0;
+    }
+
     .portifolio div {
         width: 99%;
     } 

@@ -1,5 +1,5 @@
 const projects = {
-deploy : [
+deploy: [
   {
     title: "Gestão Comandas",
     image: "./src/img/Bocanervosa.png",
@@ -47,7 +47,7 @@ deploy : [
   }
 ],
 
-descktop : [
+descktop: [
   {
     title: "Valquiria PDV",
     image: "./src/img/Valquiria.png",
@@ -86,7 +86,7 @@ descktop : [
   }
 ],
 
-console : [
+console: [
   {
     title: "Cadastrar Pessoas (API)",
     image: "./src/img/VidaPlus-API.png",
@@ -177,6 +177,6 @@ function oculta(containerId, projectList) {
 
 document.addEventListener("DOMContentLoaded", () => {
   oculta("deploy-projects", projects.deploy);
-  oculta("desktop-projects", projects.descktop);
+  oculta("descktop-projects", projects.descktop);
   oculta("console-projects", projects.console);
 });

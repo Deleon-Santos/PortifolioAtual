@@ -26,6 +26,10 @@
   cursor: pointer;
 }
 
+.projetos.hidden {
+  display: none;
+}
+
 .projetos i {
   font-size: 5rem;
   color: var(--color-strong);
