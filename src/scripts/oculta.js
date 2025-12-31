@@ -7,7 +7,7 @@ deploy: [
     repo: "https://github.com/Deleon-Santos/Gestao_Comandas/blob/master/README.md",
     description:
       "Sistema desenvolvido em Python com a lib Streamlit que visa digitalizar e simplificar a gestão de pedidos e pagamentos em pequenos bares. Ele utiliza um banco de dados postgres hospedado no Render para garantir a persistência dos dados de forma rápida e segura.",
-    skills: ["fa-python"]
+    skills: ["fa-brands fa-python"]
   },
   {
     title: "De Gota em Gota!",
@@ -16,7 +16,7 @@ deploy: [
     repo: "https://github.com/Deleon-Santos/De-gota-em-gota?tab=readme-ov-file",
     description:
       "Projeto dedicado à conscientização e preservação dos recursos naturais. Desenvolvido para a extensionista 2 e implementado na comunidade local através das redes sociais.",
-    skills: ["fa-html5", "fa-css3-alt", "fa-js"]
+    skills: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-js"]
   },
   {
     title: "Livraria Fullstack",
@@ -25,7 +25,7 @@ deploy: [
     repo: "https://github.com/Deleon-Santos/Front-FlaskAPI/git",
     description:
       "Projeto Python Fullstack desenvolvido com Flask no back-end, banco de dados PostgreSQL e front-end em HTML, CSS e JavaScript. Hospedado no Render.",
-    skills: ["fa-html5", "fa-css3-alt", "fa-js", "fa-python"]
+    skills: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-js", "fa-brands fa-python"]
   },
   {
     title: "XML to XLSX",
@@ -34,7 +34,7 @@ deploy: [
     repo: "https://github.com/Deleon-Santos/XMLtoExcel",
     description:
       "Conversor em Python para transformar arquivos XML de NF-e em planilhas Excel (.xlsx). Ideal para auditorias, conferências e análises de dados.",
-    skills: ["fa-python"]
+    skills: ["fa-brands fa-python"]
   },
   {
     title: "Calculadora Web",
@@ -43,7 +43,7 @@ deploy: [
     repo: "https://deleon-santos.github.io/Calculadora-html",
     description:
       "Projeto autoral para aplicar conhecimentos em Front-End. Funcional, utilizando HTML, CSS e JavaScript.",
-    skills: ["fa-html5", "fa-css3-alt", "fa-js"]
+    skills: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-js"]
   }
 ],
 
@@ -55,7 +55,7 @@ descktop: [
     repo: "https://github.com/Deleon-Santos/APP-Valquiria-CTKinter",
     description:
       "Sistema de gestão de vendas do tipo varejo mercadista. Desenvolvido em Python com CustomTkinter, Pillow, SQLite3, Reportlab e Datetime, com estrutura modular.",
-    skills: ["fa-python", "fa-database", "fa-file-pdf"]
+    skills: ["fa-brands fa-python", "fa-solid fa-database", "fa-solid fa-file-pdf"]
   },
   {
     title: "Cadastra Itens",
@@ -64,7 +64,7 @@ descktop: [
     repo: "https://github.com/Deleon-Santos/Cadastra-itens",
     description:
       "Aplicação em Python utilizando Pandas, SQL e PySimpleGUI para cadastro de itens e geração de planilhas XLS.",
-    skills: ["fa-python", "fa-database", "fa-file-excel"]
+    skills: ["fa-brands fa-python", "fa-solid fa-database", "fa-solid fa-file-excel"]
   },
   {
     title: "Le Postits",
@@ -73,7 +73,7 @@ descktop: [
     repo: "https://github.com/Deleon-Santos/Le-Postitis",
     description:
       "Solução de agendamento e gestão de tarefas no estilo To Do List com interface intuitiva.",
-    skills: ["fa-python"]
+    skills: ["fa-brands fa-python"]
   },
   {
     title: "Calculadorabinaria com GUI",
@@ -82,7 +82,7 @@ descktop: [
     repo: "https://github.com/Deleon-Santos/calculadorabinaria",
     description:
       "Conversor simplificado para binário, hexadecimal e decimal com interface gráfica Tkinter.",
-    skills: ["fa-python"]
+    skills: ["fa-brands fa-python"]
   }
 ],
 
@@ -94,7 +94,7 @@ console: [
     repo: "https://github.com/Deleon-Santos/SGHSS.git",
     description:
       "API desenvolvida em Flask para gerenciamento hospitalar com SQLite e CORS habilitado.",
-    skills: ["fa-python", "fa-database"]
+    skills: ["fa-brands fa-python", "fa-solid fa-database"]
   },
   {
     title: "Cadastrar Pessoas",
@@ -103,7 +103,7 @@ console: [
     repo: "https://github.com/Deleon-Santos/cadastro-de-pessoas",
     description:
       "Sistema em terminal com MySQL para cadastro, consultas e estatísticas de pessoas.",
-    skills: ["fa-python", "fa-database"]
+    skills: ["fa-brands fa-python", "fa-solid fa-database"]
   },
   {
     title: "Comandas Lanchonetes",
@@ -112,7 +112,7 @@ console: [
     repo: "https://github.com/Deleon-Santos/Comanda_lanchonet",
     description:
       "Gerenciamento de comandas em lanchonetes usando SQLite3, com estrutura modular.",
-    skills: ["fa-python", "fa-database"]
+    skills: ["fa-brands fa-python", "fa-solid fa-database"]
   },
   {
     title: "Livraria",
@@ -121,7 +121,7 @@ console: [
     repo: "https://github.com/Deleon-Santos/livraria",
     description:
       "Sistema para armazenamento e consulta de livros com banco de dados integrado e POO.",
-    skills: ["fa-python", "fa-database"]
+    skills: ["fa-brands fa-python", "fa-solid fa-database"]
   },
   {
     title: "Calculadora Binária",
@@ -130,7 +130,7 @@ console: [
     repo: "https://github.com/Deleon-Santos/colculadora-binaria",
     description:
       "Aplicação para conversões entre binário, decimal e hexadecimal via terminal.",
-    skills: ["fa-python"]
+    skills: ["fa-brands fa-python"]
   }
 ]
 }
@@ -161,7 +161,7 @@ function oculta(containerId, projectList) {
           <p>${p.description}</p>
 
           <div class="used-skill">
-            ${p.skills.map(skill => `<i class="fa-brands ${skill}"></i>`).join("")}
+            ${p.skills.map(skill => `<i class=" ${skill}"></i>`).join("")}
           </div>
 
           <span>

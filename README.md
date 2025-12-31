@@ -14,7 +14,7 @@ Este portfólio reflete minhas habilidades como desenvolvedor fullstack. O site 
 ## Portfólio
 Este portfólio tem como principais objetivos:
 - Apresentar-me como um desenvolvedor fullstack.
-- Demonstrar o meu conhecimento em **HTML**, **CSS**, **JavaScript**, **Python** , **bancos de dados** e outras tecnologias para desenvolvimneto de sistemas e aplicações Web.
+- Demonstrar o meu conhecimento em **HTML**, **CSS**, **JavaScript**, **Python** , **SQL** e outras tecnologias para desenvolvimneto de sistemas e aplicações Web.
 - Compartilhar minha trajetória pessoal e profissional.
 - Mostrar meus projetos focando em aplicações web, desktop e automação utilizando as principais linguagens de programação.
 
@@ -32,7 +32,7 @@ O portfólio é organizado em várias seções:
 
 - **Projetos:** Um portfólio visual dividido em três categorias:
 
-  - **Deploy:** Aplicações web desenvolvidas com **HTML**, **CSS**, **JavaScript** e ou **Streamlit**.
+  - **Deploy:** Aplicações web desenvolvidas com **HTML**, **CSS**, **JavaScript**, e ou **Streamlit**.
   - **Interface:** Aplicações desktop com interface gráfica desenvolvidas em **Python**.
   - **Console:** Aplicações de backend e scripts de linha de comando em **Python**, **Java** ou **C#**.
   
