@@ -18,12 +18,15 @@
   border-radius: 10px;
   box-shadow: 0.5px 0.5px 4px 3.5px var(--color-destaque);
   padding: 20px;
-  /* margin: 10px; */
   text-align: center;
   max-width: 350px;
   height: 230px;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: all .2s ease-in-out;
   cursor: pointer;
+}
+.projetos .card-projetos:hover {
+  transform: scale(1.02);
+  box-shadow: 0.5px 0.5px 4px 6px var(--color-destaque);;
 }
 
 .projetos.hidden {

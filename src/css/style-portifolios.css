@@ -24,13 +24,13 @@
   background-position: 100% 0%;
   margin-top: 20px;
   border-radius: 20px;
-  transition: 5s;
+  transition: 5s ease-in-out;
   position: relative;
 }
 
 .img_port:hover {
   background-position: 100% 100%;
-  transition: 5s ease-in-out ease-in;
+  transition: 1s ease-in-out ;
   transform: scale(1.02);
 }
 
@@ -49,13 +49,14 @@
   font-weight: 900;
   font-size: 1.5rem;
   opacity: 0;
+  transition: 5s ease-in-out;
 }
 
 .over:hover {
   opacity: 1;
-  transition: 5s ease-in-out ease-in;
+  transition: 1s ease-in-out ;
   transform: scale(1.02);
-  box-shadow: 0 0 20px 10px var(--color-shadown);
+  box-shadow: 0 4px 5px 10px var(--color-shadown);
 }
 
 .flexivel ul li {
@@ -68,7 +69,8 @@
   border-radius: 10px;
   transform: scale(1.02);
   color: var(--color-fonte-geral);
-  background-color: rgba(127, 255, 212, 0.724);
+  background-color: var(--color-strong);
+  border: 2px solid var(--color-destaque);
 }
 
 .desc-repositorio {
