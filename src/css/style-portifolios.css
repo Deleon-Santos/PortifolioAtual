@@ -30,7 +30,7 @@
 
 .img_port:hover {
   background-position: 100% 100%;
-  transition: 1s ease-in-out ;
+  transition: .5s ease-in-out ;
   transform: scale(1.02);
 }
 
@@ -54,7 +54,7 @@
 
 .over:hover {
   opacity: 1;
-  transition: 1s ease-in-out ;
+  transition: .5s ease-in-out ;
   transform: scale(1.02);
   box-shadow: 0 4px 5px 10px var(--color-shadown);
 }

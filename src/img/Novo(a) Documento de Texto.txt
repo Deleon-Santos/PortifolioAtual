@@ -1,1 +1,0 @@
-Aplicação desenvolvida para facilitar o entendimento e ajudar nas atividades de matemática aplicada à computação. Usando Python e seus recursos além de interface gráfica foi possível desenvolver uma aplicação que facilita a conversão de valores.
