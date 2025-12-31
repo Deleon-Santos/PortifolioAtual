@@ -34,7 +34,7 @@ button.hide-btn {
   color: var(--color-fonte-geral);
   background-color: var(--body-background-color);
   cursor: pointer;
-  margin: 15px 2%;
+  margin: 15px -20px;
   font-size: 1rem;
   font-weight: 600;
   transform: scale(1);

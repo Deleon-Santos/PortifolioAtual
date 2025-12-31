@@ -66,8 +66,11 @@
         justify-content: space-around;
         border: none;    
     }
+    .projetos-card {
+        max-width: 350px;
+    }
     
-    .sobre img {
+    .img_sobre img {   
         max-width: 350px;
     }   
 
