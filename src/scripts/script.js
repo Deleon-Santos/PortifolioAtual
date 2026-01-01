@@ -74,7 +74,7 @@ document.querySelectorAll(".hide-btn").forEach((button) => {
 
 // Animação de scroll para revelar seções
 const sections = document.querySelectorAll(
-  ".home, .label, .redes__sociais, .sobre, .text_sobre, .img_sobre, .titulo, .projetos, .card-projetos, .portfolio, .skills, .footer"
+  ".home, .label, .redes__sociais, .sobre, .text_sobre, .img_sobre, .titulo, .projetos, .card-projetos, .portfolio, .skills, .footer, .form"
 );
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
@@ -89,29 +89,6 @@ sections.forEach((section) => {
   observer.observe(section);
 });
 
-const form = document.getElementById("contato-form");
-const btn = document.getElementById("submit-btn");
-
-/* Validação + loading */
-form.addEventListener("submit", () => {
-  btn.classList.add("loading");
-  btn.textContent = "Enviando...";
-});
-
-/* Alerta após redirecionamento */
-const params = new URLSearchParams(window.location.search);
-
-if (params.get("success") === "true") {
-  Swal.fire({
-    icon: "success",
-    title: "Mensagem enviada!",
-    text: "Obrigado pelo contato. Retornarei em breve 😊",
-    confirmButtonColor: "#3085d6",
-  }).then(() => {
-    // limpa URL e recarrega
-    window.location.href = window.location.pathname;
-  });
-}
 
 // Menu de navegação responsivo
 let lastScrollTop = 0;
