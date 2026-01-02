@@ -89,6 +89,10 @@
     .img_port {   
         width: 100%;
     }
+
+    .img_sobre{
+        max-width: 400px;
+    }
     .footer p{
         padding-bottom: 70px;
     }

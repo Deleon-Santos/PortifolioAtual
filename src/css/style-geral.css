@@ -2,6 +2,7 @@
 
 html, body {
   scroll-behavior: smooth;
+  /* height: 100vh; */
 }
 
 :root {
@@ -32,7 +33,7 @@ html, body {
 
 .vewport {
   background-color: var(--background-color);
-  /* min-height: 100dvh;  */
+  /* height: 100dvh;  */
   margin: 0 auto;
   padding: 0 2%;
   
