@@ -7,11 +7,14 @@
   padding: 0;
   margin-bottom: 0px;
 }
-
-.img_sobre img {
+.img_sobre{
+  display: flex;
   max-width: 400px;
 
-  border: 2px solid var(--color-destaque);
+}
+.img_sobre img{
+  display: flex;
+  width: 100%;
   border-radius: 10px;
 }
 
