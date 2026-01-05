@@ -15,7 +15,7 @@ deploy: [
     deploy: "https://deleon-santos.github.io/De-gota-em-gota/",
     repo: "https://github.com/Deleon-Santos/De-gota-em-gota?tab=readme-ov-file",
     description:
-      "Projeto dedicado à conscientização e preservação dos recursos naturais. Desenvolvido para a extensionista 2 e implementado na comunidade local através das redes sociais.",
+      "Site dedicado à conscientização e preservação dos recursos naturais. Desenvolvido para a extensionista 2 e implementado na comunidade local através das redes sociais.",
     skills: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-js"]
   },
   {
@@ -33,7 +33,7 @@ deploy: [
     deploy: "https://xmltoxlsx.streamlit.app/",
     repo: "https://github.com/Deleon-Santos/XMLtoExcel",
     description:
-      "Conversor em Python para transformar arquivos XML de NF-e em planilhas Excel (.xlsx). Ideal para auditorias, conferências e análises de dados.",
+      "Conversor em Python e interface Streamlit para transformar arquivos XML de NF-e em planilhas Excel (.xlsx). Ideal para auditorias, conferências e análises de dados.",
     skills: ["fa-brands fa-python"]
   },
   {
@@ -42,7 +42,7 @@ deploy: [
     deploy: "https://deleon-santos.github.io/Calculadora-html/",
     repo: "https://deleon-santos.github.io/Calculadora-html",
     description:
-      "Projeto autoral para aplicar conhecimentos em Front-End. Funcional, utilizando HTML, CSS e JavaScript.",
+      "Projeto para praticar e aplicar conhecimentos em Front-End. Funcional, utilizando HTML, CSS e JavaScript.",
     skills: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-js"]
   }
 ],
@@ -88,12 +88,12 @@ descktop: [
 
 console: [
   {
-    title: "Cadastrar Pessoas (API)",
+    title: "VidaPlus Gestão Hopitalar(API)",
     image: "./src/img/VidaPlus-API.png",
     deploy: "https://github.com/Deleon-Santos/SGHSS.git",
     repo: "https://github.com/Deleon-Santos/SGHSS.git",
     description:
-      "API desenvolvida em Flask para gerenciamento hospitalar com SQLite e CORS habilitado.",
+      "API desenvolvida em Flask para gerenciamento hospitalar(CRUD) com SQAlchemy para gerenciar o BD, Autenticação JWT e CORS habilitado para teste em frontend.",
     skills: ["fa-brands fa-python", "fa-solid fa-database"]
   },
   {
@@ -102,7 +102,7 @@ console: [
     deploy: "https://github.com/Deleon-Santos/cadastro-de-pessoas",
     repo: "https://github.com/Deleon-Santos/cadastro-de-pessoas",
     description:
-      "Sistema em terminal com MySQL para cadastro, consultas e estatísticas de pessoas.",
+      "Sistema em CLI com MySQL para cadastro, consultas e estatísticas de pessoas.",
     skills: ["fa-brands fa-python", "fa-solid fa-database"]
   },
   {
@@ -111,7 +111,7 @@ console: [
     deploy: "https://github.com/Deleon-Santos/Comanda_lanchonet",
     repo: "https://github.com/Deleon-Santos/Comanda_lanchonet",
     description:
-      "Gerenciamento de comandas em lanchonetes usando SQLite3, com estrutura modular.",
+      "Sistema para gerenciamento de comandas em lanchonetes usando SQLite3, com estrutura modular.",
     skills: ["fa-brands fa-python", "fa-solid fa-database"]
   },
   {
