@@ -6,7 +6,7 @@ deploy: [
     deploy: "https://gestaocomandas-xnuslt9x66pp6w5oad3r2t.streamlit.app/",
     repo: "https://github.com/Deleon-Santos/Gestao_Comandas/blob/master/README.md",
     description:
-      "Sistema desenvolvido em Python com a lib Streamlit que visa digitalizar e simplificar a gestão de pedidos e pagamentos em pequenos bares. Ele utiliza um banco de dados postgres hospedado no Render para garantir a persistência dos dados de forma rápida e segura.",
+      "Solução desenvolvida para gerir mesas e comandas em lanchonetes, bares e afins. permite desde o cadastro de novos itens ate o pagamento. Sobre as tecnologia usadas temos Python, Streamlit, Sqlalchemy e banco de dados Postgres hospedados no Hender para garantir a persistência dos dados.",
     skills: ["fa-brands fa-python"]
   },
   {
@@ -15,7 +15,7 @@ deploy: [
     deploy: "https://deleon-santos.github.io/De-gota-em-gota/",
     repo: "https://github.com/Deleon-Santos/De-gota-em-gota?tab=readme-ov-file",
     description:
-      "Site dedicado à conscientização e preservação dos recursos naturais. Desenvolvido para a extensionista 2 e implementado na comunidade local através das redes sociais.",
+      "Site dedicado à conscientização e preservação dos recursos naturais. Esta hospedadeo no github pages e foi desenvolvido com HTML, CSS e JAVASCRIPT , abrange o uso de gridlayout e flexbox.",
     skills: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-js"]
   },
   {
@@ -24,7 +24,7 @@ deploy: [
     deploy: "https://deleon-santos.github.io/Front-FlaskAPI/",
     repo: "https://github.com/Deleon-Santos/Front-FlaskAPI/git",
     description:
-      "Projeto Python Fullstack desenvolvido com Flask no back-end, banco de dados PostgreSQL e front-end em HTML, CSS e JavaScript. Hospedado no Render.",
+      " API desenvolvida com Flask, banco de dados PostgreSQL e front-end em HTML, CSS e JavaScript hospedado no github pages. O banco de dados deste projeto esta Hospedado no Render e a execução pode demorar alguns segundo deivdo a limitação de disponibilidade.",
     skills: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-js", "fa-brands fa-python"]
   },
   {
@@ -33,7 +33,7 @@ deploy: [
     deploy: "https://xmltoxlsx.streamlit.app/",
     repo: "https://github.com/Deleon-Santos/XMLtoExcel",
     description:
-      "Conversor em Python e interface Streamlit para transformar arquivos XML de NF-e em planilhas Excel (.xlsx). Ideal para auditorias, conferências e análises de dados.",
+      "Extrator de dados de xml desenvolvido em Python e interface Streamlit. O sistema e capaz de extrair informações de multiplos arquivos XML de NF-e retoarna em planilhas Excel (.xlsx). Ideal para auditorias, conferências e análises de dados e estadisponivel para teste.",
     skills: ["fa-brands fa-python"]
   },
   {
@@ -76,12 +76,12 @@ descktop: [
     skills: ["fa-brands fa-python"]
   },
   {
-    title: "Calculadorabinaria com GUI",
+    title: "Calculadora binaria-Tkinter",
     image: "./src/img/Calculadorabinaria.png",
     deploy: "https://github.com/Deleon-Santos/calculadorabinaria",
     repo: "https://github.com/Deleon-Santos/calculadorabinaria",
     description:
-      "Conversor simplificado para binário, hexadecimal e decimal com interface gráfica Tkinter.",
+      "Conversor simplificado para binário, hexadecimal e decimal com interface gráfica Tkinter.  O projeto fazuso de recursos nativos de Python para coversão e emprega o uso da interface ituotiva com TKinter",
     skills: ["fa-brands fa-python"]
   }
 ],
@@ -93,7 +93,7 @@ console: [
     deploy: "https://github.com/Deleon-Santos/SGHSS.git",
     repo: "https://github.com/Deleon-Santos/SGHSS.git",
     description:
-      "API desenvolvida em Flask para gerenciamento hospitalar(CRUD) com SQAlchemy para gerenciar o BD, Autenticação JWT e CORS habilitado para teste em frontend.",
+      "API desenvolvida em Flask para gerenciar uma rotina hospitalar, a aplicação separa as responsabilidades dos autores por nivel de acessoe p ossui autenticação JWT. O banco de dados e gerenciado com SQAlchemy ,o CORS esta habilitado para frontend e esta documentada com Swagger UI para facilitar o uso.",
     skills: ["fa-brands fa-python", "fa-solid fa-database"]
   },
   {
