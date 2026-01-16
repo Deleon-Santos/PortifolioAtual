@@ -11,7 +11,6 @@ function animarTexto() {
   const textoAtual = textos[textoIndex];
 
   if (!apagando) {
-    // escrevendo
     if (letraIndex < textoAtual.length) {
       elemento.textContent += textoAtual.charAt(letraIndex);
       letraIndex++;
@@ -36,13 +35,14 @@ function animarTexto() {
   }
 }
 animarTexto();
+
 document.querySelectorAll(".mostra-projetos").forEach((item) => {
   item.addEventListener("click", () => {
     const targetId = item.dataset.target;
     const targetSection = document.getElementById(targetId);
     const projetos = document.querySelector(".projetos");
 
-    projetos.classList.add("hidden"); // remove do fluxo
+    projetos.classList.add("hidden"); 
     targetSection.classList.add("show");
 
     setTimeout(() => {
@@ -74,7 +74,7 @@ document.querySelectorAll(".hide-btn").forEach((button) => {
 
 // Animação de scroll para revelar seções
 const sections = document.querySelectorAll(
-  ".home, .label, .redes__sociais, .sobre, .text_sobre, .img_sobre, .titulo, .projetos, .card-projetos, .portfolio, .skills, .footer, .form"
+  ".home, .label, .redes__sociais, .sobre, .text_sobre, .img_sobre, .titulo, .projetos, .card-projetos, .portfolio, .skills, .footer, .form, input"
 );
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
@@ -95,16 +95,13 @@ let lastScrollTop = 0;
 const cabeca = document.querySelector(".cabeca");
 
 window.addEventListener("scroll", () => {
-  // só executa no mobile
   if (window.innerWidth > 970) return;
 
   let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
   if (scrollTop > lastScrollTop) {
-    // scroll para baixo → mostra
     cabeca.classList.remove("hide");
   } else {
-    // scroll para cima → oculta
     cabeca.classList.add("hide");
   }
 
