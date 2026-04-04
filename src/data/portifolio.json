@@ -17,11 +17,11 @@
       "skills": ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-js"]
     },
     {
-      "title": "Livraria Fullstack",
-      "image": "./src/img/Livraria.png",
-      "deploy": "https://deleon-santos.github.io/Front-FlaskAPI/",
-      "repo": "https://github.com/Deleon-Santos/Front-FlaskAPI/git",
-      "description": " API desenvolvida com Flask, banco de dados PostgreSQL e front-end em HTML, CSS e JavaScript hospedado no github pages. O banco de dados deste projeto esta Hospedado no Render e a execução pode demorar alguns segundo deivdo a limitação de disponibilidade.",
+      "title": "Library",
+      "image": "./src/img/library.png",
+      "deploy": "https://deleon-santos.github.io/Library/",
+      "repo": "https://github.com/Deleon-Santos/Library",
+      "description": " Aplicação Fulstack para gestão de livros desenvolvida com Flask, banco de dados PostgreSQL e front-end em HTML, CSS e JavaScript hospedado no github pages. O banco de dados deste projeto esta Hospedado no Render e supabase, a execução pode demorar alguns segundo deivdo a limitação de disponibilidade.",
       "skills": ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-js", "fa-brands fa-python"]
     },
     {
