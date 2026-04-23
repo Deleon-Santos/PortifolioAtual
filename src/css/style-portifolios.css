@@ -92,13 +92,20 @@
 }
 
 .used-skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  bottom: 20px;
+  bottom: 10px;
+  gap: 10px;
 }
 
-.used-skill i {
+.used-skill span {
   padding: 0 10px;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  border:2px solid var(--color-destaque);
+  border-radius: 5px;
+  
 }
 
 .repositorio {
