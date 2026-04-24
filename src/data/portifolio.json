@@ -6,7 +6,7 @@
       "deploy": "https://gestaocomandas-xnuslt9x66pp6w5oad3r2t.streamlit.app/",
       "repo": "https://github.com/Deleon-Santos/Gestao_Comandas/blob/master/README.md",
       "description": "Solução desenvolvida para gerir mesas e comandas em lanchonetes, bares e afins. permite desde o cadastro de novos itens ate o pagamento. Sobre as tecnologia usadas temos Python, Streamlit, Sqlalchemy e banco de dados Postgres hospedados no Hender para garantir a persistência dos dados.",
-      "skills": ["Python","Streamlit","PostgreSQL"]
+      "skills": ["fa-brands fa-python"]
     },
     {
       "title": "De Gota em Gota!",
