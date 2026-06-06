@@ -10,6 +10,7 @@ html, body {
 
   --color-fonte-geral: rgb(104, 103, 102);
   --color-destaque: rgb(254, 253, 253);
+  --color-strong2: linear-gradient(to right, aqua, rgb(0, 255, 255));
   --color-strong: aqua;
   --color-shadown: rgba(250, 235, 215, 0.205);
   --color-backgound-hover: aqua;
@@ -32,7 +33,7 @@ html, body {
 }
 
 .vewport {
-  background-color: var(--background-color);
+  background: linear-gradient(to right, var(--background-color), rgba(0, 17, 17, 0.953));
   /* height: 100dvh;  */
   margin: 0 auto;
   padding: 0 2%;
@@ -66,4 +67,5 @@ h2 {
 
 strong {
   color: var(--color-strong);
+  
 }

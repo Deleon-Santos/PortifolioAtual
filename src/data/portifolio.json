@@ -6,7 +6,7 @@
       "deploy": "https://valquiriapdv.streamlit.app/",
       "repo": "https://github.com/Deleon-Santos/ValquiriaPDV_ST",
       "description": "Sistema web/desktop construído com Python que opera como  PDV venda varejo de pequeno porte. É ideal para  cadastro de produtos, carrinho de vendas, fechamento de vendas, geração de cupons prontos para impressão e relatórios. Foi desenvolvido com foco em simplicidade e usabilidade.",
-      "skills": ["fa-brands fa-python"]
+      "skills": ["python", "streamlit", "sqlalchemy", "postgres", "reportlab", "pillow","pandas", "supabase"] 
     },
     {
       "title": "Gestão Comandas",
@@ -14,7 +14,7 @@
       "deploy": "https://gestaocomandas-xnuslt9x66pp6w5oad3r2t.streamlit.app/",
       "repo": "https://github.com/Deleon-Santos/Gestao_Comandas/blob/master/README.md",
       "description": "Solução desenvolvida para gerir mesas e comandas em lanchonetes, bares e afins. Permite desde o cadastro de novos itens ate o pagamento. Sobre as tecnologia usadas temos: Python, Streamlit, Sqlalchemy e banco de dados Postgres hospedados no Hender para garantir a persistência dos dados.",
-      "skills": ["fa-brands fa-python"]
+      "skills": ["python", "streamlit", "sqlalchemy", "postgres", "render"]
     },
     {
       "title": "De Gota em Gota!",
@@ -22,15 +22,15 @@
       "deploy": "https://deleon-santos.github.io/De-gota-em-gota/",
       "repo": "https://github.com/Deleon-Santos/De-gota-em-gota?tab=readme-ov-file",
       "description": "Site dedicado à conscientização e preservação dos recursos naturais destacando as ODS e sua importância. Esta hospedadeo no github pages e foi desenvolvido com HTML, CSS e JAVASCRIPT , abrange o uso de gridlayout e flexbox.",
-      "skills": ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-js"]
+      "skills": ["html", "css", "javascript"]
     },
     {
       "title": "Library",
       "image": "./src/img/library.png",
       "deploy": "https://deleon-santos.github.io/Library/",
       "repo": "https://github.com/Deleon-Santos/Library",
-      "description": " Aplicação Fulstack para gestão de livros desenvolvida com Flask, banco de dados PostgreSQL e front-end em HTML, CSS e JavaScript. A aplicação esta hospedado no github pages, o banco de dados deste projeto esta Hospedado no Render e supabase, a execução pode demorar alguns segundo deivdo a limitação de disponibilidade.",
-      "skills": ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-js", "fa-brands fa-python"]
+      "description": " Aplicação Fulstack para pesquisa e gestão de livros. Possui backend em Python com Flask e ainda consome dados de API extena. A aplicação esta hospedado no github pages, o banco de dados deste projeto esta Hospedado no Render e supabase, a execução pode demorar alguns segundo deivdo a limitação de disponibilidade.",
+      "skills": ["html", "css", "javascript", "python", "flask", "postgres", "render", "supabase","jwt", "sqlalchemy"]
     },
     {
       "title": "XML to XLSX",
@@ -38,7 +38,7 @@
       "deploy": "https://xmltoxlsx.streamlit.app/",
       "repo": "https://github.com/Deleon-Santos/XMLtoExcel",
       "description": "Extrator de dados de xml desenvolvido em Python e interface Streamlit. O sistema e capaz de extrair informações de multiplos arquivos XML de NF-e retoarna em planilhas Excel (.xlsx). Ideal para auditorias, conferências e análises de dados e esta disponivel para teste via Browser.",
-      "skills": ["fa-brands fa-python"]
+      "skills": ["python", "streamlit", "pandas", "openpyxl"]
     }
     
   ],
@@ -49,7 +49,7 @@
       "deploy": "https://github.com/Deleon-Santos/APP-Valquiria-CTKinter",
       "repo": "https://github.com/Deleon-Santos/APP-Valquiria-CTKinter",
       "description": "Sistema de gestão de vendas do tipo varejo mercadista. Desenvolvido em Python com CustomTkinter, Pillow, SQLite3, Reportlab e Datetime, com estrutura modular.",
-      "skills": ["fa-brands fa-python", "fa-solid fa-database", "fa-solid fa-file-pdf"]
+      "skills": ["python", "ctkinter", "pillow", "sqlite3", "reportlab"]
     },
     {
       "title": "Cadastra Itens",
@@ -57,7 +57,7 @@
       "deploy": "https://github.com/Deleon-Santos/Cadastra-itens",
       "repo": "https://github.com/Deleon-Santos/Cadastra-itens",
       "description": "Aplicação em Python utilizando Pandas, SQL e PySimpleGUI para cadastro de itens e geração de planilhas XLS.",
-      "skills": ["fa-brands fa-python", "fa-solid fa-database", "fa-solid fa-file-excel"]
+      "skills": ["python", "pandas", "sql", "pysimplegui"]
     },
     {
       "title": "Le Postits",
@@ -65,7 +65,7 @@
       "deploy": "https://github.com/Deleon-Santos/Le-Postitis",
       "repo": "https://github.com/Deleon-Santos/Le-Postitis",
       "description": "Solução de agendamento e gestão de tarefas no estilo To Do List com interface intuitiva.",
-      "skills": ["fa-brands fa-python"]
+      "skills": ["python", "pysimplegui"]
     },
     {
       "title": "Calculadora binaria-Tkinter",
@@ -73,7 +73,7 @@
       "deploy": "https://github.com/Deleon-Santos/calculadorabinaria",
       "repo": "https://github.com/Deleon-Santos/calculadorabinaria",
       "description": "Conversor simplificado para binário, hexadecimal e decimal com interface gráfica Tkinter.  O projeto fazuso de recursos nativos de Python para coversão e emprega o uso da interface ituotiva com TKinter",
-      "skills": ["fa-brands fa-python"]
+      "skills": ["python", "ctkinter"]
     }
   ],
   "console": [
@@ -83,7 +83,7 @@
       "deploy": "https://github.com/Deleon-Santos/SGHSS.git",
       "repo": "https://github.com/Deleon-Santos/SGHSS.git",
       "description": "API desenvolvida em Flask para gerenciar uma rotina hospitalar, a aplicação separa as responsabilidades dos autores por nivel de acessoe p ossui autenticação JWT. O banco de dados e gerenciado com SQAlchemy ,o CORS esta habilitado para frontend e esta documentada com Swagger UI para facilitar o uso.",
-      "skills": ["fa-brands fa-python", "fa-solid fa-database"]
+      "skills": ["python", "flask", "sqlalchemy", "jwt", "swagger"]
     },
     {
       "title": "Cadastrar Pessoas",
@@ -91,7 +91,7 @@
       "deploy": "https://github.com/Deleon-Santos/cadastro-de-pessoas",
       "repo": "https://github.com/Deleon-Santos/cadastro-de-pessoas",
       "description": "Sistema em CLI com MySQL para cadastro, consultas e estatísticas de pessoas.",
-      "skills": ["fa-brands fa-python", "fa-solid fa-database"]
+      "skills": ["python", "mysql"]
     },
     {
       "title": "Comandas Lanchonetes",
@@ -99,7 +99,7 @@
       "deploy": "https://github.com/Deleon-Santos/Comanda_lanchonet",
       "repo": "https://github.com/Deleon-Santos/Comanda_lanchonet",
       "description": "Sistema para gerenciamento de comandas em lanchonetes usando SQLite3, com estrutura modular.",
-      "skills": ["fa-brands fa-python", "fa-solid fa-database"]
+      "skills": ["python", "sqlite3"]
     },
     {
       "title": "Livraria",
@@ -107,7 +107,7 @@
       "deploy": "https://github.com/Deleon-Santos/livraria",
       "repo": "https://github.com/Deleon-Santos/livraria",
       "description": "Sistema para armazenamento e consulta de livros com banco de dados integrado e POO.",
-      "skills": ["fa-brands fa-python", "fa-solid fa-database"]
+      "skills": ["python", "sqlite3"]
     },
     {
       "title": "Calculadora Binária",
@@ -115,7 +115,7 @@
       "deploy": "https://github.com/Deleon-Santos/colculadora-binaria",
       "repo": "https://github.com/Deleon-Santos/colculadora-binaria",
       "description": "Aplicação para conversões entre binário, decimal e hexadecimal via terminal.",
-      "skills": ["fa-brands fa-python"]
+      "skills": ["python"]
     }
   ]
 }

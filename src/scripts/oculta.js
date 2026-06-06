@@ -18,7 +18,7 @@ function oculta(containerId, projectList) {
         <div class="desc-repositorio">
           <p>${p.description}</p>
           <div class="used-skill">
-            ${p.skills.map(skill => `<i class="${skill}"></i>`).join("")}
+            ${p.skills.map(skill => `<div class="skill-desc"><p>${skill}</p></div>`).join(' ')}
           </div>
           <span>
             <a href="${p.repo}" target="_blank" class="repositorio">Repositório</a>

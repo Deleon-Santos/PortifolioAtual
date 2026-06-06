@@ -78,6 +78,8 @@
         gap: 20px;
     }
 
+    
+
     .oculta .button.hide-btn {
         margin: 15px 0;
     }
@@ -96,5 +98,18 @@
     }
     .footer p{
         padding-bottom: 70px;
+    }
+
+
+    
+
+    .desc-repositorio .used-skill .skill-desc {
+       
+       width: auto;
+       justify-content: center;
+      
+       
+     
+       
     }
 }
