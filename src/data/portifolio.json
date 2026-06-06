@@ -21,7 +21,7 @@
       "image": "./src/img/Degotaemgotas.png",
       "deploy": "https://deleon-santos.github.io/De-gota-em-gota/",
       "repo": "https://github.com/Deleon-Santos/De-gota-em-gota?tab=readme-ov-file",
-      "description": "Site dedicado à conscientização e preservação dos recursos naturais destacando as ODS e sua importância. Esta hospedadeo no github pages e foi desenvolvido com HTML, CSS e JAVASCRIPT , abrange o uso de gridlayout e flexbox.",
+      "description": "Site dedicado à conscientização e preservação dos recursos naturais destacando as ODS e sua importância. Esta hospedadeo no github pages e foi desenvolvido com HTML, CSS e JAVASCRIPT, o site utiliza recursos de gridlayout e flexbox, é responsivo e daptavel a dispositivosmobile.",
       "skills": ["html", "css", "javascript"]
     },
     {
@@ -77,6 +77,14 @@
     }
   ],
   "console": [
+    {
+      "title": "Back-end Library",
+      "image": "./src/img/library.png",
+      "deploy": "https://github.com/Deleon-Santos/Library_backend.git",
+      "repo": "https://github.com/Deleon-Santos/Library_backend.git",
+      "description": "API desenvolvida em Python com Flask para gerenciar uma biblioteca, a aplicação possui autenticação JWT, o banco de dados e gerenciado com SQAlchemy e esta documentada com Swagger UI para facilitar o uso.",
+      "skills": ["python", "flask", "swagger", "postgres", "render", "supabase"]
+    },
     {
       "title": "VidaPlus Gestão Hopitalar(API)",
       "image": "./src/img/VidaPlus-API.png",

@@ -8,5 +8,7 @@
   { "icon": "fa-brands fa-figma", "name": "Figma" },
   { "icon": "fa-solid fa-diagram-project", "name": "UML" },
   { "icon": "fa-brands fa-git-alt", "name": "Git" },
-  { "icon": "fa-brands fa-github", "name": "GitHub" }
+  { "icon": "fa-brands fa-github", "name": "GitHub" },
+  { "icon": "fa-brands fa-docker", "name": "Docker" },
+  { "icon": "fa-solid fa-shield-alt", "name": "Security" }
 ]
