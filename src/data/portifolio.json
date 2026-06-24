@@ -80,9 +80,9 @@
     {
       "title": "Back-end Library",
       "image": "./src/img/library.png",
-      "deploy": "https://github.com/Deleon-Santos/Library_backend.git",
+      "deploy": "https://library-backend-b4as.onrender.com/apidocs",
       "repo": "https://github.com/Deleon-Santos/Library_backend.git",
-      "description": "API desenvolvida em Python com Flask para gerenciar uma biblioteca, a aplicação possui autenticação JWT, o banco de dados e gerenciado com SQAlchemy e esta documentada com Swagger UI para facilitar o uso.",
+      "description": "API desenvolvida em Python com Flask para gerenciar uma biblioteca, a aplicação possui autenticação JWT, o banco de dados e gerenciado com SQLAlchemy e esta documentada com Swagger UI para facilitar o uso.",
       "skills": ["python", "flask", "swagger", "postgres", "render", "supabase"]
     },
     {
