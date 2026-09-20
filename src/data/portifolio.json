@@ -1,6 +1,14 @@
 {
   "deploy": [
     {
+      "title": "CheckList Ocorrência",
+      "image": "./src/img/check-front.png",
+      "deploy": "https://deleon-santos.github.io/CheckListFront/",
+      "repo": "https://github.com/Deleon-Santos/CheckListFront",
+      "description": "Sistema web para gerenciamento de ocorrências, desenvolvido utilizando JavaScript moderno (ES Modules), HTML5 e CSS3, mossui interface intuitiva, rosponsiva e com conteudo dinamico.também possui autenticação baseada em Token JWT e comunicação com API REST.",
+      "skills": ["html", "css", "javascript"] 
+    },
+    {
       "title": "Valquiria-st",
       "image": "./src/img/valquiria-st.png",
       "deploy": "https://valquiriapdv.streamlit.app/",
@@ -17,11 +25,11 @@
       "skills": ["python", "streamlit", "sqlalchemy", "postgres", "render"]
     },
     {
-      "title": "De Gota em Gota!",
-      "image": "./src/img/Degotaemgotas.png",
-      "deploy": "https://deleon-santos.github.io/De-gota-em-gota/",
-      "repo": "https://github.com/Deleon-Santos/De-gota-em-gota?tab=readme-ov-file",
-      "description": "Site dedicado à conscientização e preservação dos recursos naturais destacando as ODS e sua importância. Esta hospedadeo no github pages e foi desenvolvido com HTML, CSS e JAVASCRIPT, o site utiliza recursos de gridlayout e flexbox, é responsivo e daptavel a dispositivosmobile.",
+      "title": "Rexon",
+      "image": "./src/img/rexon.png",
+      "deploy": "https://deleon-santos.github.io/rexon/",
+      "repo": "https://github.com/Deleon-Santos/rexon",
+      "description": "Este projeto consiste na reconstrução da interface inicial do site de Daisan Produtos Industriais originalmente desenvolvido utilizando WordPress para uma estrutura baseada em tecnologias fundamentais do desenvolvimento web compartivel com dispositivos mobile",
       "skills": ["html", "css", "javascript"]
     },
     {
@@ -30,7 +38,7 @@
       "deploy": "https://deleon-santos.github.io/Library/",
       "repo": "https://github.com/Deleon-Santos/Library",
       "description": " Aplicação Fulstack para pesquisa e gestão de livros. Possui backend em Python com Flask e ainda consome dados de API extena. A aplicação esta hospedado no github pages, o banco de dados deste projeto esta Hospedado no Render e supabase, a execução pode demorar alguns segundo deivdo a limitação de disponibilidade.",
-      "skills": ["html", "css", "javascript", "python", "flask", "postgres", "render", "supabase","jwt", "sqlalchemy"]
+      "skills": ["html", "css", "javascript"]
     },
     {
       "title": "XML to XLSX",
@@ -78,10 +86,18 @@
   ],
   "console": [
     {
-      "title": "Back-end Library",
-      "image": "./src/img/library.png",
-      "deploy": "https://library-backend-b4as.onrender.com/apidocs",
+      "title": "API ChecList Ocorrência",
+      "image": "./src/img/check-API.png",
+      "deploy": "",
       "repo": "https://github.com/Deleon-Santos/Library_backend.git",
+      "description": "API construda com Flask para gerenciamento de ocorrência(CRUD). Possui estrutura modular, controde de acesso e autenticação JWT, criptografia Bcrypt, ORM para mapear o banco de dados. Esta hospedados no render e banco de dados Supabase, utiliza Docker e documentação Swagger.",
+      "skills": ["python", "flask", "swagger", "postgres", "render", "supabase","docker"]
+    },
+    {
+      "title": "API Library",
+      "image": "./src/img/library-back.png",
+      "deploy": "https://library-backend-b4as.onrender.com/apidocs",
+      "repo": "https://github.com/Deleon-Santos/ChecList",
       "description": "API desenvolvida em Python com Flask para gerenciar uma biblioteca, a aplicação possui autenticação JWT, o banco de dados e gerenciado com SQLAlchemy e esta documentada com Swagger UI para facilitar o uso.",
       "skills": ["python", "flask", "swagger", "postgres", "render", "supabase"]
     },

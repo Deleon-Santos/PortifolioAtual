@@ -97,19 +97,21 @@
 }
 
 .desc-repositorio .used-skill {
+  margin: 0;
   width: 95%;
-  gap: 18px;
-  position: relative;
+  gap: 8px;
+  
   bottom: 10px;
   display: flex;
+  
+  justify-content: left;
   flex-wrap: wrap;
   
 }
 
 .desc-repositorio .used-skill .skill-desc {
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
+  
+  
   padding: 0;
   
   border: 1px solid var(--color-destaque);
