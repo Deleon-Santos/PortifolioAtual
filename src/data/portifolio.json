@@ -6,7 +6,7 @@
       "deploy": "https://deleon-santos.github.io/CheckListFront/",
       "repo": "https://github.com/Deleon-Santos/CheckListFront",
       "description": "Sistema web para gerenciamento de ocorrências, desenvolvido utilizando JavaScript moderno (ES Modules), HTML5 e CSS3, mossui interface intuitiva, rosponsiva e com conteudo dinamico.também possui autenticação baseada em Token JWT e comunicação com API REST.",
-      "skills": ["html", "css", "javascript"] 
+      "skills": ["https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white", "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white", "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"] 
     },
     {
       "title": "Valquiria-st",
@@ -14,15 +14,30 @@
       "deploy": "https://valquiriapdv.streamlit.app/",
       "repo": "https://github.com/Deleon-Santos/ValquiriaPDV_ST",
       "description": "Sistema web/desktop construído com Python que opera como  PDV venda varejo de pequeno porte. É ideal para  cadastro de produtos, carrinho de vendas, fechamento de vendas, geração de cupons prontos para impressão e relatórios. Foi desenvolvido com foco em simplicidade e usabilidade.",
-      "skills": ["python", "streamlit", "sqlalchemy", "postgres", "reportlab", "pillow","pandas", "supabase"] 
-    },
+      "skills": [
+      "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
+      "https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white",
+      "https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white",
+      "https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white",
+      "https://img.shields.io/badge/ReportLab-2B5797?style=for-the-badge&logo=python&logoColor=white",
+      "https://img.shields.io/badge/Pillow-3776AB?style=for-the-badge&logo=python&logoColor=white",
+      "https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white",
+      "https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"
+    ]
+  },
     {
       "title": "Gestão Comandas",
       "image": "./src/img/Bocanervosa.png",
       "deploy": "https://gestaocomandas-xnuslt9x66pp6w5oad3r2t.streamlit.app/",
       "repo": "https://github.com/Deleon-Santos/Gestao_Comandas/blob/master/README.md",
       "description": "Solução desenvolvida para gerir mesas e comandas em lanchonetes, bares e afins. Permite desde o cadastro de novos itens ate o pagamento. Sobre as tecnologia usadas temos: Python, Streamlit, Sqlalchemy e banco de dados Postgres hospedados no Hender para garantir a persistência dos dados.",
-      "skills": ["python", "streamlit", "sqlalchemy", "postgres", "render"]
+      "skills": [
+      "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
+      "https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white",
+      "https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white",
+      "https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white",
+      "https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black"
+    ]
     },
     {
       "title": "Rexon",
@@ -30,7 +45,7 @@
       "deploy": "https://deleon-santos.github.io/rexon/",
       "repo": "https://github.com/Deleon-Santos/rexon",
       "description": "Este projeto consiste na reconstrução da interface inicial do site de Daisan Produtos Industriais originalmente desenvolvido utilizando WordPress para uma estrutura baseada em tecnologias fundamentais do desenvolvimento web compartivel com dispositivos mobile",
-      "skills": ["html", "css", "javascript"]
+      "skills": ["https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white", "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white", "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"]
     },
     {
       "title": "Library",
@@ -38,7 +53,7 @@
       "deploy": "https://deleon-santos.github.io/Library/",
       "repo": "https://github.com/Deleon-Santos/Library",
       "description": " Aplicação Fulstack para pesquisa e gestão de livros. Possui backend em Python com Flask e ainda consome dados de API extena. A aplicação esta hospedado no github pages, o banco de dados deste projeto esta Hospedado no Render e supabase, a execução pode demorar alguns segundo deivdo a limitação de disponibilidade.",
-      "skills": ["html", "css", "javascript"]
+      "skills": ["https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white", "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white", "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"]
     },
     {
       "title": "XML to XLSX",
@@ -46,100 +61,160 @@
       "deploy": "https://xmltoxlsx.streamlit.app/",
       "repo": "https://github.com/Deleon-Santos/XMLtoExcel",
       "description": "Extrator de dados de xml desenvolvido em Python e interface Streamlit. O sistema e capaz de extrair informações de multiplos arquivos XML de NF-e retoarna em planilhas Excel (.xlsx). Ideal para auditorias, conferências e análises de dados e esta disponivel para teste via Browser.",
-      "skills": ["python", "streamlit", "pandas", "openpyxl"]
+      "skills": [
+      "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
+      "https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white",
+      "https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white",
+      "https://img.shields.io/badge/OpenPyXL-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white"
+    ]
     }
     
   ],
-  "descktop": [
-    {
-      "title": "Valquiria PDV",
-      "image": "./src/img/Valquiria.png",
-      "deploy": "https://github.com/Deleon-Santos/APP-Valquiria-CTKinter",
-      "repo": "https://github.com/Deleon-Santos/APP-Valquiria-CTKinter",
-      "description": "Sistema de gestão de vendas do tipo varejo mercadista. Desenvolvido em Python com CustomTkinter, Pillow, SQLite3, Reportlab e Datetime, com estrutura modular.",
-      "skills": ["python", "ctkinter", "pillow", "sqlite3", "reportlab"]
-    },
-    {
-      "title": "Cadastra Itens",
-      "image": "./src/img/cadastra item.png",
-      "deploy": "https://github.com/Deleon-Santos/Cadastra-itens",
-      "repo": "https://github.com/Deleon-Santos/Cadastra-itens",
-      "description": "Aplicação em Python utilizando Pandas, SQL e PySimpleGUI para cadastro de itens e geração de planilhas XLS.",
-      "skills": ["python", "pandas", "sql", "pysimplegui"]
-    },
-    {
-      "title": "Le Postits",
-      "image": "./src/img/le postits.png",
-      "deploy": "https://github.com/Deleon-Santos/Le-Postitis",
-      "repo": "https://github.com/Deleon-Santos/Le-Postitis",
-      "description": "Solução de agendamento e gestão de tarefas no estilo To Do List com interface intuitiva.",
-      "skills": ["python", "pysimplegui"]
-    },
-    {
-      "title": "Calculadora binaria-Tkinter",
-      "image": "./src/img/Calculadorabinaria.png",
-      "deploy": "https://github.com/Deleon-Santos/calculadorabinaria",
-      "repo": "https://github.com/Deleon-Santos/calculadorabinaria",
-      "description": "Conversor simplificado para binário, hexadecimal e decimal com interface gráfica Tkinter.  O projeto fazuso de recursos nativos de Python para coversão e emprega o uso da interface ituotiva com TKinter",
-      "skills": ["python", "ctkinter"]
-    }
-  ],
-  "console": [
-    {
-      "title": "API ChecList Ocorrência",
-      "image": "./src/img/check-API.png",
-      "deploy": "",
-      "repo": "https://github.com/Deleon-Santos/Library_backend.git",
-      "description": "API construda com Flask para gerenciamento de ocorrência(CRUD). Possui estrutura modular, controde de acesso e autenticação JWT, criptografia Bcrypt, ORM para mapear o banco de dados. Esta hospedados no render e banco de dados Supabase, utiliza Docker e documentação Swagger.",
-      "skills": ["python", "flask", "swagger", "postgres", "render", "supabase","docker"]
-    },
-    {
-      "title": "API Library",
-      "image": "./src/img/library-back.png",
-      "deploy": "https://library-backend-b4as.onrender.com/apidocs",
-      "repo": "https://github.com/Deleon-Santos/ChecList",
-      "description": "API desenvolvida em Python com Flask para gerenciar uma biblioteca, a aplicação possui autenticação JWT, o banco de dados e gerenciado com SQLAlchemy e esta documentada com Swagger UI para facilitar o uso.",
-      "skills": ["python", "flask", "swagger", "postgres", "render", "supabase"]
-    },
-    {
-      "title": "VidaPlus Gestão Hopitalar(API)",
-      "image": "./src/img/VidaPlus-API.png",
-      "deploy": "https://github.com/Deleon-Santos/SGHSS.git",
-      "repo": "https://github.com/Deleon-Santos/SGHSS.git",
-      "description": "API desenvolvida em Flask para gerenciar uma rotina hospitalar, a aplicação separa as responsabilidades dos autores por nivel de acessoe p ossui autenticação JWT. O banco de dados e gerenciado com SQAlchemy ,o CORS esta habilitado para frontend e esta documentada com Swagger UI para facilitar o uso.",
-      "skills": ["python", "flask", "sqlalchemy", "jwt", "swagger"]
-    },
-    {
-      "title": "Cadastrar Pessoas",
-      "image": "./src/img/Cadastra Pessoas.png",
-      "deploy": "https://github.com/Deleon-Santos/cadastro-de-pessoas",
-      "repo": "https://github.com/Deleon-Santos/cadastro-de-pessoas",
-      "description": "Sistema em CLI com MySQL para cadastro, consultas e estatísticas de pessoas.",
-      "skills": ["python", "mysql"]
-    },
-    {
-      "title": "Comandas Lanchonetes",
-      "image": "./src/img/comanda_img.png",
-      "deploy": "https://github.com/Deleon-Santos/Comanda_lanchonet",
-      "repo": "https://github.com/Deleon-Santos/Comanda_lanchonet",
-      "description": "Sistema para gerenciamento de comandas em lanchonetes usando SQLite3, com estrutura modular.",
-      "skills": ["python", "sqlite3"]
-    },
-    {
-      "title": "Livraria",
-      "image": "./src/img/livros.png",
-      "deploy": "https://github.com/Deleon-Santos/livraria",
-      "repo": "https://github.com/Deleon-Santos/livraria",
-      "description": "Sistema para armazenamento e consulta de livros com banco de dados integrado e POO.",
-      "skills": ["python", "sqlite3"]
-    },
-    {
-      "title": "Calculadora Binária",
-      "image": "./src/img/Calculadora Binaria.png",
-      "deploy": "https://github.com/Deleon-Santos/colculadora-binaria",
-      "repo": "https://github.com/Deleon-Santos/colculadora-binaria",
-      "description": "Aplicação para conversões entre binário, decimal e hexadecimal via terminal.",
-      "skills": ["python"]
-    }
-  ]
-}
+  
+"descktop": [
+  {
+    "title": "Valquiria PDV",
+    "image": "./src/img/Valquiria.png",
+    "deploy": "https://github.com/Deleon-Santos/APP-Valquiria-CTKinter",
+    "repo": "https://github.com/Deleon-Santos/APP-Valquiria-CTKinter",
+    "description": "Sistema de gestão de vendas do tipo varejo mercadista. Desenvolvido em Python com CustomTkinter, Pillow, SQLite3, ReportLab e Datetime, com estrutura modular.",
+    "skills": [
+      "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
+      "https://img.shields.io/badge/CustomTkinter-3776AB?style=for-the-badge&logo=python&logoColor=white",
+      "https://img.shields.io/badge/Pillow-3776AB?style=for-the-badge&logo=python&logoColor=white",
+      "https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white",
+      "https://img.shields.io/badge/ReportLab-2B5797?style=for-the-badge&logo=python&logoColor=white",
+      "https://img.shields.io/badge/Datetime-3776AB?style=for-the-badge&logo=python&logoColor=white"
+    ]
+  },
+  {
+    "title": "Cadastra Itens",
+    "image": "./src/img/cadastra item.png",
+    "deploy": "https://github.com/Deleon-Santos/Cadastra-itens",
+    "repo": "https://github.com/Deleon-Santos/Cadastra-itens",
+    "description": "Aplicação em Python utilizando Pandas, SQL e PySimpleGUI para cadastro de itens e geração de planilhas XLS.",
+    "skills": [
+      "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
+      "https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white",
+      "https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white",
+      "https://img.shields.io/badge/PySimpleGUI-3776AB?style=for-the-badge&logo=python&logoColor=white"
+    ]
+  },
+  {
+    "title": "Le Postits",
+    "image": "./src/img/le postits.png",
+    "deploy": "https://github.com/Deleon-Santos/Le-Postitis",
+    "repo": "https://github.com/Deleon-Santos/Le-Postitis",
+    "description": "Solução de agendamento e gestão de tarefas no estilo To Do List com interface intuitiva.",
+    "skills": [
+      "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
+      "https://img.shields.io/badge/PySimpleGUI-3776AB?style=for-the-badge&logo=python&logoColor=white"
+    ]
+  },
+  {
+    "title": "Calculadora binaria-Tkinter",
+    "image": "./src/img/Calculadorabinaria.png",
+    "deploy": "https://github.com/Deleon-Santos/calculadorabinaria",
+    "repo": "https://github.com/Deleon-Santos/calculadorabinaria",
+    "description": "Conversor simplificado para binário, hexadecimal e decimal com interface gráfica Tkinter. O projeto faz uso de recursos nativos de Python para conversão e emprega uma interface intuitiva com Tkinter.",
+    "skills": [
+      "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
+      "https://img.shields.io/badge/Tkinter-3776AB?style=for-the-badge&logo=python&logoColor=white"
+    ]
+  }
+],
+"console": [
+  {
+    "title": "API ChecList Ocorrência",
+    "image": "./src/img/check-API.png",
+    "deploy": "",
+    "repo": "https://github.com/Deleon-Santos/Library_backend.git",
+    "description": "API construída com Flask para gerenciamento de ocorrências (CRUD). Possui estrutura modular, controle de acesso e autenticação JWT, criptografia Bcrypt, ORM para mapear o banco de dados. Está hospedada no Render, utiliza banco Supabase, Docker e documentação Swagger.",
+    "skills": [
+      "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
+      "https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white",
+      "https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black",
+      "https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white",
+      "https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black",
+      "https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white",
+      "https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white",
+      "https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white",
+      "https://img.shields.io/badge/Bcrypt-3776AB?style=for-the-badge&logo=python&logoColor=white"
+    ]
+  },
+  {
+    "title": "API Library",
+    "image": "./src/img/library-back.png",
+    "deploy": "https://library-backend-b4as.onrender.com/apidocs",
+    "repo": "https://github.com/Deleon-Santos/ChecList",
+    "description": "API desenvolvida em Python com Flask para gerenciar uma biblioteca. Possui autenticação JWT, banco de dados gerenciado com SQLAlchemy e documentação Swagger UI.",
+    "skills": [
+      "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
+      "https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white",
+      "https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white",
+      "https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white",
+      "https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black",
+      "https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white",
+      "https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black",
+      "https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"
+    ]
+  },
+  {
+    "title": "VidaPlus Gestão Hopitalar(API)",
+    "image": "./src/img/VidaPlus-API.png",
+    "deploy": "https://github.com/Deleon-Santos/SGHSS.git",
+    "repo": "https://github.com/Deleon-Santos/SGHSS.git",
+    "description": "API desenvolvida em Flask para gerenciar uma rotina hospitalar. Possui separação de responsabilidades, controle de acesso por nível, autenticação JWT, SQLAlchemy, CORS e documentação Swagger UI.",
+    "skills": [
+      "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
+      "https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white",
+      "https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white",
+      "https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white",
+      "https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black",
+      "https://img.shields.io/badge/CORS-3776AB?style=for-the-badge&logo=python&logoColor=white"
+    ]
+  },
+  {
+    "title": "Cadastrar Pessoas",
+    "image": "./src/img/Cadastra Pessoas.png",
+    "deploy": "https://github.com/Deleon-Santos/cadastro-de-pessoas",
+    "repo": "https://github.com/Deleon-Santos/cadastro-de-pessoas",
+    "description": "Sistema em CLI com MySQL para cadastro, consultas e estatísticas de pessoas.",
+    "skills": [
+      "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
+      "https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"
+    ]
+  },
+  {
+    "title": "Comandas Lanchonetes",
+    "image": "./src/img/comanda_img.png",
+    "deploy": "https://github.com/Deleon-Santos/Comanda_lanchonet",
+    "repo": "https://github.com/Deleon-Santos/Comanda_lanchonet",
+    "description": "Sistema para gerenciamento de comandas em lanchonetes usando SQLite3, com estrutura modular.",
+    "skills": [
+      "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
+      "https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"
+    ]
+  },
+  {
+    "title": "Livraria",
+    "image": "./src/img/livros.png",
+    "deploy": "https://github.com/Deleon-Santos/livraria",
+    "repo": "https://github.com/Deleon-Santos/livraria",
+    "description": "Sistema para armazenamento e consulta de livros com banco de dados integrado e POO.",
+    "skills": [
+      "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
+      "https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"
+    ]
+  },
+  {
+    "title": "Calculadora Binária",
+    "image": "./src/img/Calculadora Binaria.png",
+    "deploy": "https://github.com/Deleon-Santos/colculadora-binaria",
+    "repo": "https://github.com/Deleon-Santos/colculadora-binaria",
+    "description": "Aplicação para conversões entre binário, decimal e hexadecimal via terminal.",
+    "skills": [
+      "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
+    ]
+  }
+]}
