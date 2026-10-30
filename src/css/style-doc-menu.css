@@ -29,18 +29,19 @@
 .doc_menu_desktop li {
   margin: 1.5rem 0;
   text-emphasis: none;
+  
 }
 
 .doc_menu_desktop a i {
   font-size: 1.5rem;
-  color: var(--color-destaque);
+  color: var(--color-texto);
   padding: 10px;
   transition: transform 0.2s ease, var(--color-backgound-hover) 0.2s ease;
 }
 
 .doc_menu_desktop a:hover i {
-  background-color: var(--color-backgound-hover);
-  color: var(--color-fonte-hover);
+  /* background-color: var(--color-backgound-hover); */
+  color: var(--color-backgound-hover);
   border-radius: 20%;
   transition: 0.3s;
   transform: scale(1.12);
